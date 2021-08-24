@@ -1,0 +1,17 @@
+scripted_gui = {
+	Politics_Scripted_GUI = {
+		context_type = player_context
+		window_name = "Politics_Scripted_GUI_window"
+		parent_window_token = politics_tab
+
+		visible = {
+			always = yes
+		}
+
+		properties = {
+			Dual_Leader_image = {
+				image = "[Get_Deputy_GFX]"
+			}
+		}
+	}
+}

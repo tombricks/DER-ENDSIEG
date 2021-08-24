@@ -1,0 +1,14 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					NOT = { 
+						has_country_flag = NON_GENERIC_OOB
+					}
+				}
+				load_oob = "GENERIC"
+			}
+		}
+	}
+}

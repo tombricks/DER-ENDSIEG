@@ -1,0 +1,12 @@
+ideas = {
+	dual_leader = {
+		GER_Martin_Bormann = {
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			visible = {
+				has_government = fascism
+			}
+			traits = { TITLE_Parteikanzlei }
+		}
+	}
+}

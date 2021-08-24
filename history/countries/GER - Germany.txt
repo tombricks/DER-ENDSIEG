@@ -115,6 +115,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	GER_Martin_Bormann
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
@@ -171,8 +172,8 @@ create_country_leader = {
 	name = "Adolf Hitler"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Adolf Hitler.dds"
-	expire = "1965.1.1"
 	ideology = nazism
+	traits = { TITLE_Fuhrer }
 }
 
 create_field_marshal = {

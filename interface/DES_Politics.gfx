@@ -4,6 +4,10 @@ spriteTypes = {
 		textureFile = "gfx/leaders/GER/Adolf Hitler.dds"		
 	}
 	spriteType = {
+		name = "GFX_Portrait_Martin_Bormann"
+		textureFile = "gfx/leaders/GER/Martin Bormann.dds"		
+	}
+	spriteType = {
 		name = "GFX_Portrait_Benito_Mussolini"
 		textureFile = "gfx/leaders/ITA/Benito Mussolini.dds"		
 	}

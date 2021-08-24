@@ -1,2 +1,4 @@
 leader_traits = {
+	TITLE_Fuhrer = {  }
+	TITLE_Parteikanzlei = {  }
 }
