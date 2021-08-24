@@ -139,6 +139,7 @@ if = {
 	set_autonomy = { target = DEN autonomy_state = autonomy_reichsprotektorat }
 	set_autonomy = { target = BRG autonomy_state = autonomy_autonomous_zone }
 	set_autonomy = { target = KRS autonomy_state = autonomy_autonomous_zone }
+	set_autonomy = { target = DWA autonomy_state = autonomy_autonomous_zone }
 	
 	set_autonomy = { target = DTS autonomy_state = autonomy_satellite }
 	set_autonomy = { target = SLO autonomy_state = autonomy_satellite }
@@ -159,6 +160,7 @@ if = {
 		puppet = SLO
 		puppet = CAP
 		puppet = BRI
+		puppet = DWA
 	}
 }
 add_to_faction = HUN

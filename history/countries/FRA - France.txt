@@ -1,5 +1,5 @@
 # FRA - France.txt
-capital = 16
+capital = 810
 set_stability = 0.6
 set_war_support = 0.6
 
@@ -17,12 +17,18 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1932.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 100
+	fascism = 100
+}
+
+create_country_leader = {
+	name = "Pierre Laval"
+	picture = "Pierre Laval.dds"
+	ideology = fascism_ideology
 }

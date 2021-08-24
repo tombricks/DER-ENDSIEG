@@ -750,3 +750,7 @@ DOA = {
 	color = rgb { 55 117 104 }
 	color_ui = rgb { 55 117 104 }
 }
+DWA = {
+	color = rgb { 114 148 80 }
+	color_ui = rgb { 222 247 198 }
+}

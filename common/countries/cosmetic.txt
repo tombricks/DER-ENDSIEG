@@ -124,3 +124,8 @@ BRG_AHN = {
 	color = rgb { 43 25 611 }
 	color_ui = rgb { 43 25 61 }
 }
+
+DWA_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}

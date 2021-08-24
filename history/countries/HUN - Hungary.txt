@@ -6,7 +6,6 @@ set_war_support = 0.5
 set_convoys = 200
 
 add_ideas = {
-	victor_emmanuel
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
