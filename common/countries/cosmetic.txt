@@ -1,0 +1,126 @@
+#reload countrycolors
+
+MOS_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+OST_Reichskommissariat = {
+	color = rgb { 71 77 81 }
+	color_ui = rgb { 71 77 81 }
+}
+
+UKR_Reichskommissariat = {
+	color = rgb { 67 72 84 }
+	color_ui = rgb { 67 72 84 }
+}
+
+WLG_Reichskommissariat = {
+	color = rgb { 71 78 87 }
+	color_ui = rgb { 71 78 87 }
+}
+
+CAU_Reichskommissariat = {
+	color = rgb { 76 75 65 }
+	color_ui = rgb { 76 75 65 }
+}
+
+MOL_Reichskommissariat = {
+	color = rgb { 85 75 79 }
+	color_ui = rgb { 85 75 79 }
+}
+
+HOL_Reichskommissariat = {
+	color = rgb { 76 66 61 }
+	color_ui = rgb { 76 66 61 }
+}
+
+NOR_Reichskommissariat = {
+	color = rgb { 63 59 68 }
+	color_ui = rgb { 63 59 68 }
+}
+
+DOA_Reichskommissariat = {
+	color = rgb { 66 71 65 }
+	color_ui = rgb { 66 71 65 }
+}
+
+DSW_Reichskommissariat = {
+	color = rgb { 73 62 67 }
+	color_ui = rgb { 73 62 67 }
+}
+
+COUNTRY_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+SWE_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+ADU_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+COG_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+BEL_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+CAT_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+ITA_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+MAD_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+MOR_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+PAL_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+POR_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+USA_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+SPR_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+FRA_Reichskommissariat = {
+	color = rgb { 75 76 69 }
+	color_ui = rgb { 75 76 69 }
+}
+
+BRG_AHN = {
+	color = rgb { 43 25 611 }
+	color_ui = rgb { 43 25 61 }
+}

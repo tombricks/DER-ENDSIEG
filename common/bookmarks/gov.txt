@@ -1,0 +1,25 @@
+bookmarks = {
+	bookmark = {
+		name = "GUARANTEE_OF_VICTORY_NAME"
+		desc = "GUARANTEE_OF_VICTORY_DESC"
+		date = 1959.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"GER"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = {  }
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

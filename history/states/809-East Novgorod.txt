@@ -1,0 +1,21 @@
+
+state={
+	id=809
+	name="STATE_809"
+	provinces={
+		8 71 110 6086 6154 6225 9212 11191 
+	}
+	history = {
+		owner = MOS
+		add_core_of = MOS
+		
+		buildings = {
+			infrastructure = 5
+			air_base = 1
+
+		}
+	}
+	manpower=546288
+	buildings_max_level_factor=1.000
+	state_category=town
+}

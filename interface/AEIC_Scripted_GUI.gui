@@ -1,0 +1,259 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "AEIC_Scripted_GUI_window"
+		orientation = CENTER
+		position = { x = -480 y = -400 }
+		size = { width = 960 height = 600 }
+		margin = { top = 16 left = 16 right = 16 bottom = 16 }
+		moveable = yes
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_DES_Window"
+		}
+
+		instantTextboxType = {
+			name = "leader_name"
+			position = { x = -400 y = 24 }
+			font = "tck_36b"
+			text = "Arabo-European Intercooperation Council"
+			text_color_code = B
+			maxWidth = 800
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+			orientation = CENTER_UP
+		}
+
+		containerWindowType = {
+			name = "GER_Info"
+			position = { x = 16 y = 72 }
+			size = { width = 300 height = 480 }
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_DES_Window"
+			}
+			
+			iconType = {
+				name = "GER_Leader"
+				spriteType = "GFX_Portrait_Adolf_Hitler"
+				position = { x = -78 y = 40 }
+				orientation  = center_up
+			}
+		
+			iconType = {
+				name = "leader_frame2"
+				spriteType = "GFX_pol_leader_frame"
+				position = { x = -86 y = 32 }
+				orientation  = center_up
+			}
+			instantTextboxType = {
+				name = "leader_name"
+				position = { x = -86 y = 252 }
+				font = "tck_16b"
+				text = "[GER.GetLeader]"
+				text_color_code = B
+				maxWidth = 172
+				maxHeight = 20
+				orientation = center_up
+				format = center
+				vertical_alignment = center
+			}
+			instantTextboxType = {
+				name = "legality"
+				position = { x = 0 y = 296 }
+				font = "tck_24b"
+				text = "Legality of Islam"
+				text_color_code = B
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+			instantTextboxType = {
+				name = "legality_2"
+				position = { x = 0 y = 320 }
+				font = "tck_20b"
+				text = "[GER.AEIC_Legality_Loc]"
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+				text_color_code = G
+			}
+			instantTextboxType = {
+				name = "pops"
+				position = { x = 0 y = 348 }
+				font = "tck_24b"
+				text = "Muslim Population"
+				text_color_code = B
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+			instantTextboxType = {
+				name = "pops_2"
+				position = { x = 0 y = 372 }
+				font = "tck_20b"
+				text = "[GER.AEIC_Population_Loc]"
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+			instantTextboxType = {
+				name = "opinion"
+				position = { x = 0 y = 400 }
+				font = "tck_24b"
+				text = "Majority Opinion"
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+				text_color_code = B
+			}
+			instantTextboxType = {
+				name = "opinion_2"
+				position = { x = 0 y = 424 }
+				font = "tck_20b"
+				text = "[GER.AEIC_Opinion_Loc]"
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+		}
+
+		containerWindowType = {
+			name = "ITA_Info"
+			position = { x = 612 y = 72 }
+			size = { width = 300 height = 480 }
+			
+			background = {
+				name = "Background"
+				quadTextureSprite = "GFX_tiled_DES_Window"
+			}
+			
+			iconType = {
+				name = "GER_Leader"
+				spriteType = "GFX_Portrait_Benito_Mussolini"
+				position = { x = -78 y = 40 }
+				orientation  = center_up
+			}
+		
+			iconType = {
+				name = "leader_frame2"
+				spriteType = "GFX_pol_leader_frame"
+				position = { x = -86 y = 32 }
+				orientation  = center_up
+			}
+			instantTextboxType = {
+				name = "leader_name"
+				position = { x = -86 y = 252 }
+				font = "tck_16b"
+				text = "[ITA.GetLeader]"
+				text_color_code = B
+				maxWidth = 172
+				maxHeight = 20
+				orientation = center_up
+				format = center
+				vertical_alignment = center
+			}
+			instantTextboxType = {
+				name = "legality"
+				position = { x = 0 y = 296 }
+				font = "tck_24b"
+				text = "Legality of Islam"
+				text_color_code = B
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+			instantTextboxType = {
+				name = "legality_2"
+				position = { x = 0 y = 320 }
+				font = "tck_20b"
+				text = "[ITA.AEIC_Legality_Loc]"
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+				text_color_code = G
+			}
+			instantTextboxType = {
+				name = "pops"
+				position = { x = 0 y = 348 }
+				font = "tck_24b"
+				text = "Muslim Population"
+				text_color_code = B
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+			instantTextboxType = {
+				name = "pops_2"
+				position = { x = 0 y = 372 }
+				font = "tck_20b"
+				text = "[ITA.AEIC_Population_Loc]"
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+			instantTextboxType = {
+				name = "opinion"
+				position = { x = 0 y = 400 }
+				font = "tck_24b"
+				text = "Majority Opinion"
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+				text_color_code = B
+			}
+			instantTextboxType = {
+				name = "opinion_2"
+				position = { x = 0 y = 424 }
+				font = "tck_20b"
+				text = "[ITA.AEIC_Opinion_Loc]"
+				maxWidth = 300
+				maxHeight = 20
+				format = center
+			}
+		}
+
+		instantTextboxType = {
+			name = "grand_mufti"
+			position = { x = -400 y = 60 }
+			font = "tck_20b"
+			text = "Grand Mufti"
+			text_color_code = B
+			maxWidth = 800
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+			orientation = CENTER_UP
+		}
+
+		iconType = {
+			name = "Grand_Mufti_Portrait"
+			orientation = center_up
+			position = { x = -78 y = 88 }
+			spriteType = "GFX_Portrait_Amin_al_Husseini"
+		}
+
+		iconType = {
+			name = "Grand_Mufti_Frame"
+			orientation = center_up
+			position = { x = -86 y = 80 }
+			spriteType = "GFX_pol_leader_frame"
+		}
+
+		instantTextboxType = {
+			name = "grand_mufti_name"
+			position = { x = -86 y = 301 }
+			font = "tck_14b"
+			text = "[PAL.GetLeader]"
+			text_color_code = B
+			maxWidth = 172
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+			orientation = CENTER_UP
+		}
+	}
+}

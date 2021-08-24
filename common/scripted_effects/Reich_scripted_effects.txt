@@ -1,0 +1,205 @@
+RK_Cosmetic = {	
+	if = {
+		limit = {
+			FROM = {
+				Is_Fascist_Germany = yes
+			}
+		}
+		if = {
+			limit = {
+				always = no
+			}
+			# invidvidualals
+
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = UKR
+					}
+				}
+				set_cosmetic_tag = UKR_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = OST
+					}
+				}
+				set_cosmetic_tag = OST_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = MOS
+					}
+				}
+				set_cosmetic_tag = MOS_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = WLG
+					}
+				}
+				set_cosmetic_tag = WLG_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = CAU
+					}
+				}
+				set_cosmetic_tag = CAU_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = MOL
+					}
+				}
+				set_cosmetic_tag = MOL_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = NOR
+					}
+				}
+				set_cosmetic_tag = NOR_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = HOL
+					}
+				}
+				set_cosmetic_tag = HOL_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = DSW
+					}
+				}
+				set_cosmetic_tag = DSW_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = DOA
+					}
+				}
+				set_cosmetic_tag = DOA_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = SWE
+					}
+				}
+				set_cosmetic_tag = SWE_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = ADU
+					}
+				}
+				set_cosmetic_tag = ADU_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = COG
+					}
+				}
+				set_cosmetic_tag = COG_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = BEL
+					}
+				}
+				set_cosmetic_tag = BEL_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = CAT
+					}
+				}
+				set_cosmetic_tag = CAT_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = ITA
+					}
+				}
+				set_cosmetic_tag = ITA_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = MAD
+					}
+				}
+				set_cosmetic_tag = MAD_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = MOR
+					}
+				}
+				set_cosmetic_tag = MOR_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = PAL
+					}
+				}
+				set_cosmetic_tag = PAL_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = POR
+					}
+				}
+				set_cosmetic_tag = POR_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = USA
+					}
+				}
+				set_cosmetic_tag = USA_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = SPR
+					}
+				}
+				set_cosmetic_tag = SPR_Reichskommissariat
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						tag = FRA
+					}
+				}
+				set_cosmetic_tag = FRA_Reichskommissariat
+			}
+
+			else = {
+				set_cosmetic_tag = COUNTRY_Reichskommissariat
+			}
+		}
+		set_country_leader_ideology = nazism
+	}
+}

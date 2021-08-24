@@ -1,0 +1,17 @@
+on_actions = {
+	on_puppet = {
+		effect = {
+			RK_Cosmetic = yes
+		}
+	}
+	on_liberate = {
+		effect = {
+			RK_Cosmetic = yes
+		}
+	}
+	on_release_as_puppet = {
+		effect = {
+			RK_Cosmetic = yes
+		}
+	}
+}

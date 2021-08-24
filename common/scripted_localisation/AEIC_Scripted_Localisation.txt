@@ -1,0 +1,78 @@
+defined_text = { 
+	name = AEIC_Legality_Loc
+	text = {
+		trigger = {
+			check_variable = {
+				var = AEIC_Legality
+				value = 2
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = AEIC_Legality_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = AEIC_Legality
+				value = 1
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = AEIC_Legality_1
+	}
+	text = {
+		localization_key = AEIC_Legality_0
+	}
+}
+defined_text = { 
+	name = AEIC_Population_Loc
+	text = {
+		trigger = {
+			check_variable = {
+				var = AEIC_Population
+				value = 2
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = AEIC_Population_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = AEIC_Population
+				value = 1
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = AEIC_Population_1
+	}
+	text = {
+		localization_key = AEIC_Population_0
+	}
+}
+defined_text = { 
+	name = AEIC_Opinion_Loc
+	text = {
+		trigger = {
+			check_variable = {
+				var = AEIC_Opinion
+				value = 2
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = AEIC_Opinion_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = AEIC_Opinion
+				value = 1
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = AEIC_Opinion_1
+	}
+	text = {
+		localization_key = AEIC_Opinion_0
+	}
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=80
+	name="STATE_80"
+
+	history={
+		victory_points = {
+			577 1 
+		}
+		owner = MOL
+		add_core_of = MOL
+		add_core_of = ROM
+		add_claim_by = ROM
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		577 6584 6761 9548 11534 
+	}
+	manpower=474600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,80 @@
+﻿l_english:
+ communism: "Communist"
+ communism_noun: "Communism"
+ communism_desc: "Authoritarian Regime"
+
+ socialism: "Socialist"
+ socialism_noun: "Socialism"
+ socialism_desc: "Left-Wing Regime"
+
+ democratic: "Democratic"
+ democratic_noun: "Democracy"
+ democratic_desc: "Democratic Regime"
+
+ fascism: "Fascist"
+ fascism_noun: "Fascism"
+ fascism_desc: "Totalitarian Regime"
+
+ neutrality: "Authoritarian"
+ neutrality_noun: "Authoritarianism"
+ neutrality_desc: "Authoritarian Regime"
+
+ GER_communism_party: "KPD"
+ GER_communism_party_long: "Communist Party of Germany"
+ GER_socialism_party: "Republikbanner"
+ GER_socialism_party_long: "Republic Banner Red-Gold"
+ GER_democratic_party: "Reichsbanner"
+ GER_democratic_party_long: "Reich Banner Black-Red-Gold"
+ GER_neutrality_party: "Opposition"
+ GER_neutrality_party_long: "Right-Wing Opposition"
+ GER_fascism_party: "NSDAP"
+ GER_fascism_party_long: "National Socialist German Workers' Party"
+
+ GER_RK_party: "RMfdwG"
+ GER_RK_party_long: "Reich Ministry for the Wider Territories"
+ GER_RK_party_desc: "The RMfdwG was established from Rosenberg's former Ministry for the Occupied Eastern Territories, with Hitler seeing it fit that the territories gained after the war be not seen as occupied but as part of a \"wider Reich.\" Calling it a political party would not be an adapt description, rather a gang of German officials drunk with power who's primary goal with their annexed lands is to exploit them for the Fatherland."
+
+ GER_DEN_party: "DNSAP"
+ GER_DEN_party_long: "Danish National Socialist Workers' Party"
+ GER_DEN_party_desc: "The DNSAP is the leading party in the Danish parliament, only gaining that position through Germany playing the hand they hold over the Danish protectorate they have occupied since 1940. The German occupational forces care not much about the civil administration, leaving it mostly to the DNSAP with the exception of the SS. Werner Best remains as a fearful watch over the nominally independent Kingdom as Reichsbevollmächtigter (Reich Plenipotentiary) and as one of the more powerful figures in the SS, his influence is not challenged by many."
+ 
+ GER_NOR_party: "NS"
+ GER_NOR_party_long: "National Gathering"
+ GER_NOR_party_desc: "The Nasjonal Samling party, led by Quisling, rules in tandem over Norway with the occupying forces and the Reichskommissar. Quisling clearly takes a Deputy position in the leadership but clearly hopes to take more power. It is not daring to say that Quisling could take power in the next few years seeing as the Germans themselves in the mainland are becoming more and more unstable and that a bit of turbulence could knock the Reichskommissar out of power."
+
+ GER_BRG_party: "Burgunderbüro"
+ GER_BRG_party_long: "SS Main Office for the Administration of the Burgundian Autonomy"
+
+ BRG_AHN_party: "Ahnenerbe"
+ BRG_AHN_party_long: "Ancestral Heritage"
+
+ GER_WLG_party: "NSVdWD"
+ GER_WLG_party_long: "National Socialist Association of Volga Germans"
+
+ GER_KRS_party: "K.P.A. - Kongo"
+ GER_KRS_party_long: "NSDAP Office of Colonial Policy - Kongo"
+
+ GER_RK_Afrika_party: "K.P.A."
+ GER_RK_Afrika_party_long: "NSDAP Office of Colonial Policy"
+ 
+ # Lol im copying this section from Totalsieg lets hope its still correct
+ BUL_fascism_party: "UBNL"
+ BUL_fascism_party_long: "Union of Bulgarian National Legions"
+ CRO_fascism_party: "Ustaše"
+ CRO_fascism_party_long: "Ustase - Croatian Revolutionary Movement"
+ CZE_fascism_party: "NS"
+ CZE_fascism_party_long: "National Partnership"
+ GRE_fascism_party: "EEE"
+ GRE_fascism_party_long: "National Union of Greece"
+ ROM_fascism_party: "Garda de Fier"
+ ROM_fascism_party_long: "Iron Guard - League of the Archangel Michael"
+ SER_fascism_party: "SRU"
+ SER_fascism_party_long: "Serbian Radical Union"
+ SLO_fascism_party: "SĽS"
+ SLO_fascism_party_long: "Slovak People's Party"
+# Totalsieg? More like No-talsieg! (This is where the shit I copied from Totalsieg ends)
+
+ HUN_fascism_party: "NYKP"
+ HUN_fascism_party_long: "Arrow Cross"
+ BUL_neutrality_party: "Borisians"
+ BUL_neutrality_party_long: "Tsar Boris III Supporters"

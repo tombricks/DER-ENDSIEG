@@ -1,0 +1,22 @@
+
+state={
+	id=810
+	name="STATE_810"
+	provinces={
+		6547 9507 9523 9725 
+	}
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			anti_air_building = 2
+			air_base = 3
+		}
+	}
+	manpower=3519250
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=808
+	name="STATE_808"
+	provinces={
+		489 582 9543 11530 11557 
+	}
+	resources={
+		oil=4.000
+		aluminium=4.000
+	}
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 4
+		}
+	}
+	manpower=1247676
+	buildings_max_level_factor=1.000
+	state_category=city
+}

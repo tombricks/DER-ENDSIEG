@@ -1,0 +1,23 @@
+Is_Germany = {
+	OR = {
+		tag = GER
+		AND = {
+			tag = BRG
+			has_global_flag = GER_Civil_War_BRG_Victory
+		}
+		AND = {
+			tag = HUN
+			has_global_flag = GER_Civil_War_HUN_Victory
+		}
+	}
+}
+
+Is_Fascist_Germany = {
+	OR = {
+		tag = GER
+		AND = {
+			tag = HUN
+			has_global_flag = GER_Civil_War_HUN_Victory
+		}
+	}
+}

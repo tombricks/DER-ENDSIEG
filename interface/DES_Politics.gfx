@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_Adolf_Hitler"
+		textureFile = "gfx/leaders/GER/Adolf Hitler.dds"		
+	}
+	spriteType = {
+		name = "GFX_Portrait_Benito_Mussolini"
+		textureFile = "gfx/leaders/ITA/Benito Mussolini.dds"		
+	}
+	spriteType = {
+		name = "GFX_Portrait_Amin_al_Husseini"
+		textureFile = "gfx/leaders/PAL/Amin al Husseini.dds"		
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_Portrait_Ernst_Schafer_Spin"
+		textureFile = "gfx/leaders/BRG/Ernst Schafer Spin.dds"
+		noOfFrames = 90
+		animation_rate_fps = 12
+		looping = yes
+		play_on_show = yes
+	}
+}

@@ -1,0 +1,192 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_tiled_DES_Window"
+		size= { x=96 y=96 }
+		textureFile = "gfx/interface/tiles/DES_Window.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_DES_Full_Window"
+		size= { x=96 y=96 }
+		textureFile = "gfx/interface/tiles/DES_Full_Window.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_DES_Outline"
+		size= { x=96 y=96 }
+		textureFile = "gfx/interface/tiles/DES_Outline.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	bitmapfont = {
+		name = "tck_16b"
+		fontfiles = { 
+			"gfx/fonts/tck_16b"
+		}		
+		color = 0xffffffff
+
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+
+	bitmapfont = {
+		name = "tck_12"
+		fontfiles = {
+			"gfx/fonts/tck_12"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_12b"
+		fontfiles = {
+			"gfx/fonts/tck_12b"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+
+	bitmapfont = {
+		name = "tck_14"
+		fontfiles = {
+			"gfx/fonts/tck_14"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_14b"
+		fontfiles = {
+			"gfx/fonts/tck_14b"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_16"
+		fontfiles = {
+			"gfx/fonts/tck_16"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_16b"
+		fontfiles = {
+			"gfx/fonts/tck_16b"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_18"
+		fontfiles = {
+			"gfx/fonts/tck_18"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_18b"
+		fontfiles = {
+			"gfx/fonts/tck_18b"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_20"
+		fontfiles = {
+			"gfx/fonts/tck_20"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_20b"
+		fontfiles = {
+			"gfx/fonts/tck_20b"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_24"
+		fontfiles = {
+			"gfx/fonts/tck_24"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_24b"
+		fontfiles = {
+			"gfx/fonts/tck_24b"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_36"
+		fontfiles = {
+			"gfx/fonts/tck_36"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "tck_36b"
+		fontfiles = {
+			"gfx/fonts/tck_36b"
+		}
+		color = 0xffffffff
+		textcolors = {
+			B = { 73 123 237 }
+		}
+	}
+	
+}

@@ -1,0 +1,10 @@
+﻿l_english:
+ AEIC_Legality_2: "§GAllowed§!"
+ AEIC_Legality_1: "§YState Oppressed§!"
+ AEIC_Legality_0: "§RBanned§!"
+ AEIC_Population_2: "§GMajority§!"
+ AEIC_Population_1: "§YSignificant Minority§!"
+ AEIC_Population_0: "§RInsignificant§!"
+ AEIC_Opinion_2: "§GPostiive§!"
+ AEIC_Opinion_1: "§YNeutral§!"
+ AEIC_Opinion_0: "§RNegative§!"

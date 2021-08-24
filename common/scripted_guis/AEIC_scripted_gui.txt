@@ -1,0 +1,13 @@
+scripted_gui = {
+	AEIC_Scripted_GUI = {
+		context_type = player_context
+		window_name = "AEIC_Scripted_GUI_window"
+
+		visible = {
+			always = no
+		}
+
+		properties = {
+		}
+	}
+}

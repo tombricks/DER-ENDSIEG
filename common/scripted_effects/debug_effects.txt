@@ -1,0 +1,13 @@
+d_annex_true = {
+	every_state = {
+		limit = {
+			OR = {
+				is_core_of = ROOT
+				is_claimed_by = ROOT
+			}
+		}
+		ROOT = {
+			transfer_state = prev
+		}
+	}
+}
