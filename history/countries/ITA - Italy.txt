@@ -1,5 +1,5 @@
 ﻿capital = 2
-oob = "ITA_1959"
+oob = "ITA_1952"
 set_research_slots = 4
 set_stability = 0.5
 set_war_support = 0.5
@@ -64,7 +64,7 @@ if = {
 		coastal_defense_ships = 1
 		improved_airplane_launcher = 1
 	}
-	set_naval_oob = "ITA_1959_naval_mtg"
+	set_naval_oob = "ITA_1952_naval_mtg"
 	else = {
 		set_technology = {
 			early_submarine = 1
@@ -76,7 +76,7 @@ if = {
 			early_battlecruiser = 1
 			transport = 1
 		}
-		set_naval_oob = "ITA_1959_naval_legacy"
+		set_naval_oob = "ITA_1952_naval_legacy"
 	}
 }
 
@@ -101,7 +101,7 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 
-create_faction = "Latin Bloc"
+create_faction = ITA_FACTION
 add_to_faction = ITA
 add_to_faction = SPR
 if = {
@@ -304,7 +304,7 @@ if = {
 }
 
 ### VARIANTS ###
-# 1959 Start #
+# 1952 Start #
 #plane variants
 create_equipment_variant = {
 		name = "CR.42"

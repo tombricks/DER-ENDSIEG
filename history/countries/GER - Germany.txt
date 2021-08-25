@@ -119,9 +119,11 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+	GER_Master_of_Europe
+	GER_Broken_Economy
 }
 
-create_faction = "Neuordnung"
+create_faction = GER_FACTION
 add_to_faction = GER
 
 if = {

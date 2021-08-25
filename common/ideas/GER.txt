@@ -1,12 +1,37 @@
 ideas = {
 	dual_leader = {
 		GER_Martin_Bormann = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea GER_Martin_Bormann" }
 			allowed = { tag = GER }
 			allowed_to_remove = { always = no }
 			visible = {
 				has_government = fascism
 			}
 			traits = { TITLE_Parteikanzlei }
+		}
+	}
+
+	country = {
+		GER_Master_of_Europe = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea GER_Master_of_Europe" }
+			available = {
+				has_government = fascism
+			}
+			modifier = {
+				war_support_factor = 0.1
+				political_power_gain = 0.5
+			}
+		}
+		GER_Broken_Economy = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea GER_Broken_Economy" }
+			available = {
+				has_government = fascism
+			}
+			modifier = {
+				stability_factor = -0.25
+				drift_defence_factor = -0.075
+				production_factory_efficiency_gain_factor = -0.2
+			}
 		}
 	}
 }

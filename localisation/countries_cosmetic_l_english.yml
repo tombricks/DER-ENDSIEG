@@ -100,3 +100,11 @@
  BRG_AHN_fascism: "Hyperdom"
  BRG_AHN_fascism_DEF: "the Dominion of the Hyperboreans"
  BRG_AHN_fascism_ADJ: "Hyperborean"
+
+ FRBR_democratic: "Franco-British Union"
+ FRBR_democratic_DEF: "the Franco-British Union"
+ FRBR_democratic_ADJ: "Franco-British"
+
+ IND_Union_neutrality: "Indochinese Union"
+ IND_Union_neutrality_DEF: "the Indochinese Union"
+ IND_Union_neutrality_ADJ: "Indochinese"

@@ -218,3 +218,5 @@ DTS = "countries/western_european.txt" # Dütschland
 DOA = "countries/western_european.txt" # German East Afrika
 DSW = "countries/western_european.txt" # German South West Afrika
 DWA = "countries/western_european.txt" # German West Afrika
+IND = "countries/asian.txt" # Indochina
+RUS = "countries/asian.txt" # Russian State

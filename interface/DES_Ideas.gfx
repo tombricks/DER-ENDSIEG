@@ -1,0 +1,10 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_GER_Master_of_Europe"
+		textureFile = "gfx/interface/ideas/GER_Master_of_Europe.dds"		
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Broken_Economy"
+		textureFile = "gfx/interface/ideas/GER_Broken_Economy.dds"		
+	}
+}

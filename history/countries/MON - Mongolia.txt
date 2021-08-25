@@ -26,3 +26,8 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
+
+create_faction = MON_FACTION
+add_to_faction = MON
+add_to_faction = TAN
+add_to_faction = SIK
