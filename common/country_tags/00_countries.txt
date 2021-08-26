@@ -219,4 +219,5 @@ DOA = "countries/western_european.txt" # German East Afrika
 DSW = "countries/western_european.txt" # German South West Afrika
 DWA = "countries/western_european.txt" # German West Afrika
 IND = "countries/asian.txt" # Indochina
-RUS = "countries/asian.txt" # Russian State
+RUS = "countries/asian.txt" # Parliamentary Tsardom of Russia
+RSC = "countries/eastern_european.txt" # Russian Society
