@@ -25,11 +25,11 @@ idea_categories = {
 	
 	government = {
 		slot = dual_leader
+		slot = political_advisor
+		slot = political_advisor
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = political_advisor
-		slot = political_advisor
 		
 		ledger = civilian
 		

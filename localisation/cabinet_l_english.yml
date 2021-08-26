@@ -1,5 +1,9 @@
 ﻿l_english:
+ dual_leader: "Deputy Leader"
  TITLE_Fuhrer: "Führer"
  TITLE_Parteikanzlei: "Parteikanzlei"
+ MINISTER_GER_Propaganda: "Reich Minister of Public Enlightenment and Propaganda"
+ MINISTER_GER_Rosenberg: "Reich Minister for the Wider Territories"
+ MINISTER_GER_Armaments: "Reich Minister for Armaments and Production"
  
- GER_Martin_Bormann: "Martin Bormann"
+ GER_DL_Martin_Bormann: "Martin Bormann"

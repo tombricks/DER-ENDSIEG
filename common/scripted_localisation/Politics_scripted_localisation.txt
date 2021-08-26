@@ -1,11 +1,11 @@
 defined_text = { 
 	name = Get_Deputy_Name
-	text = { trigger = { has_idea = GER_Martin_Bormann } localization_key = GER_Martin_Bormann }
+	text = { trigger = { has_idea = GER_DL_Martin_Bormann } localization_key = GER_DL_Martin_Bormann }
 	text = { localization_key = "N/A" }
 }
 defined_text = { 
 	name = Get_Deputy_GFX
-	text = { trigger = { has_idea = GER_Martin_Bormann } localization_key = "GFX_Portrait_Martin_Bormann" }
+	text = { trigger = { has_idea = GER_DL_Martin_Bormann } localization_key = "GFX_Portrait_Martin_Bormann" }
 	text = { localization_key = "GFX_portrait_unknown" }
 }
 defined_text = { 

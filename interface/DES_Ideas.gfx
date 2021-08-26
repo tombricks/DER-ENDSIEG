@@ -7,4 +7,28 @@ spriteTypes = {
 		name = "GFX_idea_GER_Broken_Economy"
 		textureFile = "gfx/interface/ideas/GER_Broken_Economy.dds"		
 	}
+	spriteType = {
+		name = "GFX_idea_GER_Party_in_Flames"
+		textureFile = "gfx/interface/ideas/GER_Party_in_Flames.dds"		
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Der_Widerstand"
+		textureFile = "gfx/interface/ideas/GER_Der_Widerstand.dds"		
+	}
+	spriteType = {
+		name = "GFX_idea_GER_DL_Martin_Bormann"
+		textureFile = "gfx/interface/ideas/GER_DL_Martin_Bormann.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Joseph_Goebbels"
+		textureFile = "gfx/interface/ideas/GER_Joseph_Goebbels.dds"		
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Alfred_Rosenberg"
+		textureFile = "gfx/interface/ideas/GER_Alfred_Rosenberg.dds"		
+	}
+	spriteType = {
+		name = "GFX_idea_GER_Albert_Speer"
+		textureFile = "gfx/interface/ideas/GER_Albert_Speer.dds"		
+	}
 }

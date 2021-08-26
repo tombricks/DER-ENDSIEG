@@ -1,7 +1,7 @@
 ideas = {
 	dual_leader = {
-		GER_Martin_Bormann = {
-			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea GER_Martin_Bormann" }
+		GER_DL_Martin_Bormann = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea GER_DL_Martin_Bormann" }
 			allowed = { tag = GER }
 			allowed_to_remove = { always = no }
 			visible = {
@@ -28,9 +28,75 @@ ideas = {
 				has_government = fascism
 			}
 			modifier = {
-				stability_factor = -0.25
-				drift_defence_factor = -0.075
+				stability_factor = -0.15
 				production_factory_efficiency_gain_factor = -0.2
+			}
+		}
+		GER_Party_in_Flames = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea GER_Party_in_Flames" }
+			available = {
+				has_government = fascism
+			}
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.2
+				political_advisor_cost_factor = 50
+			}
+		}
+		GER_Der_Widerstand = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea GER_Der_Widerstand" }
+			available = {
+				has_government = fascism
+			}
+			modifier = {
+				drift_defence_factor = -0.15
+				socialism_drift = 0.05
+				communism_drift = 0.05
+				democratic_drift = 0.05
+				resistance_growth = 0.1
+			}
+		}
+	}
+
+	political_advisor = {
+		GER_Joseph_Goebbels = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea GER_Joseph_Goebbels" }
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			visible = {
+				has_government = fascism
+			}
+			traits = { MINISTER_GER_Propaganda }
+			modifier = {
+				war_support_factor = 0.1
+				conscription = 0.1
+			}
+		}
+		GER_Alfred_Rosenberg = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea GER_Alfred_Rosenberg" }
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			visible = {
+				has_government = fascism
+			}
+			traits = { MINISTER_GER_Rosenberg }
+			modifier = {
+				autonomy_manpower_share = 0.3
+				fascism_drift = 0.075
+			}
+		}
+		GER_Albert_Speer = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea GER_Albert_Speer" }
+			allowed = { tag = GER }
+			allowed_to_remove = { always = no }
+			visible = {
+				has_government = fascism
+			}
+			traits = { MINISTER_GER_Armaments }
+			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_arms_factory_factor = 0.2
+				production_factory_max_efficiency_factor = 0.25
 			}
 		}
 	}

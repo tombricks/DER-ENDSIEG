@@ -1,5 +1,5 @@
 ﻿capital = 231
-oob = "CAU_1952"
+oob = "CAU_1959"
 set_stability = 0.75
 set_war_support = 0.75
 set_cosmetic_tag = CAU_Reichskommissariat
@@ -47,7 +47,7 @@ if = {
 		basic_cruiser_armor_scheme = 1
 		mtg_transport = 1
 	}
-	set_naval_oob = "CAU_1952_naval"
+	set_naval_oob = "CAU_1959_naval"
 	else = {
 		set_technology = {
 			early_destroyer = 1
@@ -56,7 +56,7 @@ if = {
 			early_submarine = 1
 			transport = 1
 		}
-		set_naval_oob = "CAU_1952_naval_legacy"
+		set_naval_oob = "CAU_1959_naval_legacy"
 	}
 }
 

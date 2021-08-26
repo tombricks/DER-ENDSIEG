@@ -2,7 +2,7 @@
 capital = 46
 set_stability = 0.6
 set_war_support = 0.6
-oob = "ROM_1952"
+oob = "ROM_1959"
 
 set_technology = {
 	tech_support = 1		
@@ -29,13 +29,13 @@ if = {
 		basic_torpedo = 1
 		basic_depth_charges = 1
 	}
-	set_naval_oob = "ROM_1952_naval_legacy"
+	set_naval_oob = "ROM_1959_naval_legacy"
 	else = {
 		set_technology = {
 			early_submarine = 1
 			early_destroyer = 1
 		}
-		set_naval_oob = "ROM_1952_naval_mtg"
+		set_naval_oob = "ROM_1959_naval_mtg"
 	}
 }
 

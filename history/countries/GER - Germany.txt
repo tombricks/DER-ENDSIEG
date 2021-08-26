@@ -1,5 +1,5 @@
 ﻿capital = 64
-oob = "GER_1952"
+oob = "GER_1959"
 set_fuel_ratio = 0.8
 set_stability = 0.6
 set_war_support = 0.5
@@ -115,12 +115,16 @@ set_popularities = {
 }
 
 add_ideas = {
-	GER_Martin_Bormann
+	GER_DL_Martin_Bormann
+	GER_Joseph_Goebbels
+	GER_Albert_Speer
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
 	GER_Master_of_Europe
 	GER_Broken_Economy
+	GER_Party_in_Flames
+	GER_Der_Widerstand
 }
 
 create_faction = GER_FACTION
@@ -175,7 +179,7 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Adolf Hitler.dds"
 	ideology = nazism
-	traits = { TITLE_Fuhrer }
+	traits = { TITLE_Fuhrer dictator }
 }
 
 create_field_marshal = {

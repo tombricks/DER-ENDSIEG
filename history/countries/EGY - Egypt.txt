@@ -1,5 +1,5 @@
 ﻿capital = 446
-oob = "EGY_1952"
+oob = "EGY_1959"
 set_stability = 0.6
 set_war_support = 0.5
 set_cosmetic_tag = EGY_Colony
@@ -42,7 +42,7 @@ if = {
 		basic_cruiser_armor_scheme = 1
 		mtg_transport = 1
 	}
-	set_naval_oob = "EGY_1952_naval"
+	set_naval_oob = "EGY_1959_naval"
 	else = {
 		set_technology = {
 			early_destroyer = 1
@@ -51,7 +51,7 @@ if = {
 			early_submarine = 1
 			transport = 1
 		}
-		set_naval_oob = "EGY_1952_naval_legacy"
+		set_naval_oob = "EGY_1959_naval_legacy"
 	}
 }
 
