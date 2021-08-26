@@ -1,6 +1,6 @@
 leader_traits = {
 	TITLE_Fuhrer = {  }
-	TITLE_Parteikanzlei = {  }
+	TITLE_Reichsleiter = {  }
 	MINISTER_GER_Propaganda = {  }
 	MINISTER_GER_Rosenberg = {  }
 	MINISTER_GER_Armaments = {  }

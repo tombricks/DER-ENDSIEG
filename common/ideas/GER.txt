@@ -7,7 +7,7 @@ ideas = {
 			visible = {
 				has_government = fascism
 			}
-			traits = { TITLE_Parteikanzlei }
+			traits = { TITLE_Reichsleiter }
 		}
 	}
 
