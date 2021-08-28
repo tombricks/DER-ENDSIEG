@@ -96,3 +96,19 @@ d_add_fake_armies = {
 	
 	log = "Done"
 }
+
+d_advisor_test = {
+	if = {
+		limit = {
+			too_many_advisors = yes
+		}
+		log = "too many"
+		else = {
+			log = "fine"
+		}
+	}
+}
+
+d_advisor_clean = {
+	remove_ideas = var:last_advisor
+}

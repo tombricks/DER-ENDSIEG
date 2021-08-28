@@ -269,3 +269,22 @@ has_large_ally_not_pick_closed_economy = {
 		num_of_military_factories > 30
 	}
 }
+
+too_many_advisors = {
+	set_temp_variable = {
+		max_advisors = 2
+	}
+	add_to_temp_variable = {
+		var = max_advisors
+		value = unlocked_advisors
+	}
+	meta_trigger = {
+		text = {
+			amount_taken_ideas = {
+				amount > [MAX]
+				slots = { political_advisor }
+			}
+		}
+		MAX = max_advisors
+	}
+}

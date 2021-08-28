@@ -13,5 +13,11 @@ scripted_gui = {
 				image = "[Get_Deputy_GFX]"
 			}
 		}
+
+		triggers = {
+			minister_lock_1_visible = { NOT = { check_variable = { unlocked_advisors > 0 } } }
+			minister_lock_2_visible = {	NOT = { check_variable = { unlocked_advisors > 1 } } }
+			minister_lock_3_visible = {	NOT = { check_variable = { unlocked_advisors > 2 } } }
+		}
 	}
 }

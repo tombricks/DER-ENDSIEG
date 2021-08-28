@@ -47,5 +47,29 @@ guiTypes = {
 			format = center
 			vertical_alignment = center
 		}
+		
+		iconType = {
+			name = "minister_lock_1"
+			spriteType = "GFX_minister_lock"
+			alwaystransparent = no
+			position = { x = 234 y = 667 }		
+			pdx_tooltip = "minister_lock_tt"
+        }
+		
+		iconType = {
+			name = "minister_lock_2"
+			spriteType = "GFX_minister_lock"
+			alwaystransparent = no
+			position = { x = 334 y = 667 }		
+			pdx_tooltip = "minister_lock_tt"
+        }
+		
+		iconType = {
+			name = "minister_lock_3"
+			spriteType = "GFX_minister_lock"
+			alwaystransparent = no
+			position = { x = 434 y = 667 }
+			pdx_tooltip = "minister_lock_tt"
+        }
     }
 }
