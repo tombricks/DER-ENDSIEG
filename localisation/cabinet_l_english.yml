@@ -3,8 +3,9 @@
  minister_lock_tt: "This Advisor Slot is §RLocked!§! It can be unlocked throughout the game!"
  TITLE_Fuhrer: "Führer"
  TITLE_Reichsleiter: "Reichsleiter"
+ TITLE_Reichsverweser: "Reichsverweser"
+ TITLE_Chancellor: "Chancellor"
  MINISTER_GER_Propaganda: "Reich Minister of Public Enlightenment and Propaganda"
  MINISTER_GER_Rosenberg: "Reich Minister for the Wider Territories"
  MINISTER_GER_Armaments: "Reich Minister for Armaments and Production"
- 
- GER_DL_Martin_Bormann: "Martin Bormann"
+ MINISTER_BRG_Deputy_Reichsverweser: "Deputy Reichsverweser"

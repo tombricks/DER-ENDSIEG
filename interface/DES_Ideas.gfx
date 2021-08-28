@@ -36,4 +36,12 @@ spriteTypes = {
 		name = "GFX_idea_GER_Albert_Speer"
 		textureFile = "gfx/interface/ideas/GER_Albert_Speer.dds"		
 	}
+	spriteType = {
+		name = "GFX_idea_BRG_DL_Leon_Degrelle"
+		textureFile = "gfx/interface/ideas/BRG_Leon_Degrelle.dds"		
+	}
+	spriteType = {
+		name = "GFX_idea_BRG_Gottlob_Berger"
+		textureFile = "gfx/interface/ideas/BRG_Gottlob_Berger.dds"		
+	}
 }

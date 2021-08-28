@@ -3,7 +3,6 @@ oob = "BRG_1959"
 set_stability = 0.75
 set_war_support = 0.75
 set_cosmetic_tag = BRG_Ordensstaat
-set_country_flag = GER_Autonomous_Zone
 set_party_name = {
 	ideology = fascism
 	name = GER_BRG_party
@@ -77,4 +76,10 @@ create_country_leader = {
 	desc = ""
 	picture = "Heinrich Himmler.dds"
 	ideology = ultra_nazism
+	traits = { TITLE_Reichsverweser }
+}
+
+add_ideas = {
+	BRG_DL_Leon_Degrelle
+	BRG_Gottlob_Berger
 }

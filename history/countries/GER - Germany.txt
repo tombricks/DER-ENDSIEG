@@ -144,7 +144,6 @@ if = {
 	set_autonomy = { target = DSW autonomy_state = autonomy_reichskommissariat }
 	set_autonomy = { target = DOA autonomy_state = autonomy_reichskommissariat }
 	set_autonomy = { target = DEN autonomy_state = autonomy_reichsprotektorat }
-	set_autonomy = { target = BRG autonomy_state = autonomy_autonomous_zone }
 	set_autonomy = { target = KRS autonomy_state = autonomy_autonomous_zone }
 	set_autonomy = { target = DWA autonomy_state = autonomy_autonomous_zone }
 	
@@ -152,6 +151,7 @@ if = {
 	set_autonomy = { target = SLO autonomy_state = autonomy_satellite }
 	set_autonomy = { target = CAP autonomy_state = autonomy_satellite }
 	set_autonomy = { target = BRI autonomy_state = autonomy_satellite }
+	set_autonomy = { target = BRG autonomy_state = autonomy_satellite }
 
 	else = {
 		puppet = UKR

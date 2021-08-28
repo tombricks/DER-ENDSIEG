@@ -1,0 +1,27 @@
+ideas = {
+	dual_leader = {
+		BRG_DL_Leon_Degrelle = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea BRG_DL_Leon_Degrelle" }
+			allowed = { tag = BRG }
+			allowed_to_remove = { always = no }
+			visible = {
+				has_government = fascism
+			}
+			traits = { TITLE_Chancellor }
+		}
+	}
+
+	political_advisor = {
+		BRG_Gottlob_Berger = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea BRG_Gottlob_Berger" set_variable = { last_advisor = BRG_Gottlob_Berger } }
+			allowed = { tag = BRG }
+			allowed_to_remove = { always = no }
+			visible = {
+				has_government = fascism
+			}
+			traits = { MINISTER_BRG_Deputy_Reichsverweser }
+			modifier = {
+			}
+		}
+	}
+}

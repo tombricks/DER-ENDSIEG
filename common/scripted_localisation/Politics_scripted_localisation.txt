@@ -1,6 +1,7 @@
 defined_text = { 
 	name = Get_Deputy_Name
 	text = { trigger = { has_idea = GER_DL_Martin_Bormann } localization_key = GER_DL_Martin_Bormann }
+	text = { trigger = { has_idea = BRG_DL_Leon_Degrelle } localization_key = BRG_DL_Leon_Degrelle }
 	text = { localization_key = "N/A" }
 }
 defined_text = { 
@@ -12,11 +13,15 @@ defined_text = {
 	name = Get_Leader_Title
 	text = { trigger = { has_country_leader_with_trait = TITLE_Fuhrer } localization_key = TITLE_Fuhrer }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Reichsleiter } localization_key = TITLE_Reichsleiter }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Reichsverweser } localization_key = TITLE_Reichsverweser }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Chancellor } localization_key = TITLE_Chancellor }
 	text = { localization_key = "Leader" }
 }
 defined_text = { 
 	name = Get_Deputy_Title
 	text = { trigger = { has_idea_with_trait = TITLE_Fuhrer } localization_key = TITLE_Fuhrer }
 	text = { trigger = { has_idea_with_trait = TITLE_Reichsleiter } localization_key = TITLE_Reichsleiter }
+	text = { trigger = { has_idea_with_trait = TITLE_Reichsverweser } localization_key = TITLE_Reichsverweser }
+	text = { trigger = { has_idea_with_trait = TITLE_Chancellor } localization_key = TITLE_Chancellor }
 	text = { localization_key = "Leader" }
 }
