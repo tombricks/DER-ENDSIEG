@@ -1,0 +1,21 @@
+guiTypes = {
+    containerWindowType = {
+        name = "Diplomatic_Scripted_GUI_window"
+        position = { x = 0 y = 0}
+
+		iconType = {
+			name = "Dual_Leader_image"
+			position = { x = 134 y = 120 }
+			spriteType = "GFX_leader_unknown"
+			scale = 0.70
+		}
+				
+		iconType = {
+			name = "diplo_leader_frame"
+			position = { x = 127 y = 114 }
+			spriteType = "GFX_diplo_leader_frame"
+			alwaystransparent = yes
+			scale = 0.945
+		}
+    }
+}
