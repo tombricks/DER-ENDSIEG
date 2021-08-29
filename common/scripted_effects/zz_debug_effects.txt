@@ -112,3 +112,17 @@ d_advisor_test = {
 d_advisor_clean = {
 	remove_ideas = var:last_advisor
 }
+
+d_conquer_all = {
+	every_state = {
+		limit = {
+			OR = {
+				is_claimed_by = ROOT
+				is_core_of = ROOT
+			}
+		}
+		ROOT = {
+			transfer_state = PREV
+		}
+	}
+}

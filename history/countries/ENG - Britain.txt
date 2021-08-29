@@ -3,6 +3,12 @@ capital = 126
 set_stability = 0.6
 set_war_support = 0.6
 set_cosmetic_tag = FRBR
+every_state = {
+	limit = {
+		has_state_flag = FRA_1936
+	}
+	add_claim_by = ENG
+}
 
 set_technology = {
 	infantry_weapons = 1
@@ -29,12 +35,25 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Winston Churchill"
-	picture = "Winston Churchill.dds"
+	name = "Kingsley Wood"
+	picture = "Kingsley Wood.dds"
 	ideology = conservatism
+	traits = { TITLE_Prime_Minister }
+}
+
+create_country_leader = {
+	name = "Elizabeth II"
+	picture = "Elizabeth II.dds"
+	ideology = monarchism
+	traits = { TITLE_Queen }
 }
 
 set_autonomy = {
 	target = IND
 	autonomy_state = autonomy_colony
+}
+
+add_ideas = {
+	ENG_DL_Elizabeth_II
+	ENG_Charles_de_Gaulle
 }

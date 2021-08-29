@@ -22,7 +22,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_GER_DL_Martin_Bormann"
-		textureFile = "gfx/interface/ideas/GER_DL_Martin_Bormann.dds"
+		textureFile = "gfx/interface/ideas/GER_Martin_Bormann.dds"
 	}
 	spriteType = {
 		name = "GFX_idea_GER_Joseph_Goebbels"
@@ -43,5 +43,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_BRG_Gottlob_Berger"
 		textureFile = "gfx/interface/ideas/BRG_Gottlob_Berger.dds"		
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_DL_Elizabeth_II"
+		textureFile = "gfx/interface/ideas/ENG_Elizabeth_II.dds"		
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_Charles_de_Gaulle"
+		textureFile = "gfx/interface/ideas/ENG_Charles_de_Gaulle.dds"		
 	}
 }

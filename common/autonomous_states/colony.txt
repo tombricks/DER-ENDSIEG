@@ -9,6 +9,8 @@ autonomy_state = {
 
 	use_overlord_color = yes
 	
+	default = yes
+	
 	rule = {
 		can_not_declare_war = yes
 		can_decline_call_to_war = no

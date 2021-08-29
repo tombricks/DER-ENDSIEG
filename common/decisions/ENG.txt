@@ -1,0 +1,33 @@
+political_actions = {
+	ENG_Cement_French_Royal_Claims = {
+
+		icon = generic_prepare_civil_war
+
+		allowed = {
+			original_tag = ENG
+		}
+		available = {
+			controls_state = 15
+			controls_state = 30
+		}
+		visible = {
+			has_government = neutrality
+			has_country_leader = {
+				name = "Elizabeth II"
+				ruling_only = yes
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision ENG_Cement_French_Royal_Claims"
+			country_event = ENG_Other.1
+		}
+	}
+}	

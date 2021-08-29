@@ -34,6 +34,7 @@ state={
 			}
 		}
 		add_core_of = BRI
+		set_state_flag = FRA_1936
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

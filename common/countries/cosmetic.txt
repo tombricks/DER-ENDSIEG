@@ -129,3 +129,8 @@ DWA_Reichskommissariat = {
 	color = rgb { 75 76 69 }
 	color_ui = rgb { 75 76 69 }
 }
+
+ANGEVIN = {
+	color = rgb { 104 15 15 }
+	color_ui = rgb { 104 15 15 }
+}

@@ -3,10 +3,15 @@ leader_traits = {
 	TITLE_Reichsleiter = {  }
 	TITLE_Reichsverweser = {  }
 	TITLE_Chancellor = {  }
+	TITLE_Queen = {  }
+	TITLE_Emperor = {  }
+	TITLE_Prime_Minister = {  }
+	TITLE_Empress = {  }
 	MINISTER_GER_Propaganda = {  }
 	MINISTER_GER_Rosenberg = {  }
 	MINISTER_GER_Armaments = {  }
 	MINISTER_BRG_Deputy_Reichsverweser = {  }
+	MINISTER_President = {  }
 	
 	dictator = {
 		random = no

@@ -21,6 +21,7 @@ state={
 
 		}
 		add_core_of = FRA
+		set_state_flag = FRA_1936
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 4

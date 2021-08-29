@@ -19,6 +19,7 @@ state={
 			air_base = 2
 		}
 		add_core_of = FRA
+		set_state_flag = FRA_1936
 	}
 
 	provinces={

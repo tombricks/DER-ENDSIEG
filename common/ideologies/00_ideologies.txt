@@ -131,6 +131,8 @@ ideologies = {
 			moderatism = { }
 			
 			centrism = { }
+
+			monarchism = { }
 		}
 
 		dynamic_faction_names = {

@@ -8,6 +8,7 @@ state={
 	history = {
 		owner = FRA
 		add_core_of = FRA
+		set_state_flag = FRA_1936
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2

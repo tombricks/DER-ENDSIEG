@@ -1,0 +1,38 @@
+﻿add_namespace = ENG_Other
+
+# Cement French Royal Claims
+country_event = {
+	id = ENG_Other.1
+	title = ENG_Other.1.title
+	desc = ENG_Other.1.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event ENG_Other.1" }
+	
+	option = {
+		name = ENG_Other.1.a # Stick to Modest Claims
+		add_state_core = 15
+	}
+	option = {
+		name = ENG_Other.1.b # Revive a Long Forgotten Empire
+		set_cosmetic_tag = ANGEVIN
+		add_state_core = 15
+		add_state_core = 30
+		add_state_core = 14
+		add_state_core = 23
+		add_state_core = 19
+		add_state_core = 806
+		add_state_core = 25
+		add_state_core = 33
+		set_party_name = {
+			ideology = neutrality
+			name = ENG_ANGEVIN_PARTY
+			long_name = ENG_ANGEVIN_PARTY_LONG
+		}
+		swap_ruler_traits = {
+			remove = TITLE_Queen
+			add = TITLE_Empress
+		}
+	}
+}

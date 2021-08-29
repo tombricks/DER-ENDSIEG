@@ -19,6 +19,7 @@ state={
 		}
 		add_core_of = COR
 		add_core_of = ITA
+		set_state_flag = FRA_1936
 	}
 
 	provinces={

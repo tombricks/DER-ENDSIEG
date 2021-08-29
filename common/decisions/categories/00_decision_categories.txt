@@ -4,3 +4,9 @@ debug_decisions = {
 		is_debug = yes
 	}
 }
+
+political_actions = {
+	visible = {
+		always = yes
+	}
+}

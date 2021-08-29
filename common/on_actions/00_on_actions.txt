@@ -11,4 +11,21 @@ on_actions = {
 			}
 		}
 	}
+
+	on_ruling_party_change = {
+		effect = {
+			log = "[GetDateText]: [Root.GetName]: on_government_change"
+			if = {
+				limit = {
+					tag = ENG
+					has_country_leader = {
+						name = "Elizabeth II"
+						ruling_only = yes
+					}
+					has_idea = ENG_DL_Elizabeth_II
+				}
+				remove_ideas = ENG_DL_Elizabeth_II
+			}
+		}
+	}
 }

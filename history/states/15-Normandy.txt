@@ -8,6 +8,7 @@ state={
 
 	history={
 		owner = FRA
+		set_state_flag = FRA_1936
 		victory_points = {
 			6449 3 
 		}

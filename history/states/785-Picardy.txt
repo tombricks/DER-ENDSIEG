@@ -23,6 +23,7 @@ state={
 		owner = BRG
 		add_core_of = BRG
 		add_core_of = FRA
+		set_state_flag = FRA_1936
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 1
