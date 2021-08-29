@@ -3,6 +3,7 @@ defined_text = {
 	text = { trigger = { has_idea = GER_DL_Martin_Bormann } localization_key = GER_DL_Martin_Bormann }
 	text = { trigger = { has_idea = BRG_DL_Leon_Degrelle } localization_key = BRG_DL_Leon_Degrelle }
 	text = { trigger = { has_idea = ENG_DL_Elizabeth_II } localization_key = ENG_DL_Elizabeth_II }
+	text = { trigger = { has_idea = MDA_DL_Nikita_Khrushchev } localization_key = MDA_DL_Nikita_Khrushchev }
 	text = { localization_key = "N/A" }
 }
 defined_text = { 
@@ -20,6 +21,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Emperor } localization_key = TITLE_Emperor }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Empress } localization_key = TITLE_Empress }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Prime_Minister } localization_key = TITLE_Prime_Minister }
+	text = { trigger = { has_country_leader_with_trait = TITLE_President } localization_key = TITLE_President }
 	text = { localization_key = "Leader" }
 }
 defined_text = { 
@@ -32,5 +34,6 @@ defined_text = {
 	text = { trigger = { has_idea_with_trait = TITLE_Emperor } localization_key = TITLE_Emperor }
 	text = { trigger = { has_idea_with_trait = TITLE_Empress } localization_key = TITLE_Empress }
 	text = { trigger = { has_idea_with_trait = TITLE_Prime_Minister } localization_key = TITLE_Prime_Minister }
+	text = { trigger = { has_idea_with_trait = TITLE_President } localization_key = TITLE_President }
 	text = { localization_key = "Leader" }
 }

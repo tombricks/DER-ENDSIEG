@@ -52,4 +52,12 @@ spriteTypes = {
 		name = "GFX_idea_ENG_Charles_de_Gaulle"
 		textureFile = "gfx/interface/ideas/ENG_Charles_de_Gaulle.dds"		
 	}
+	spriteType = {
+		name = "GFX_idea_MDA_DL_Nikita_Khrushchev"
+		textureFile = "gfx/interface/ideas/MDA_Nikita_Khrushchev.dds"		
+	}
+	spriteType = {
+		name = "GFX_idea_MDA_Mikhail_Gorbachev"
+		textureFile = "gfx/interface/ideas/MDA_Mikhail_Gorbachev.dds"		
+	}
 }

@@ -765,3 +765,7 @@ RSC = {
 	color = rgb { 35 13 13 }
 	color_ui = rgb { 35 13 13 }
 }
+MDA = {
+	color = rgb { 158 88 88 }
+	color_ui = rgb { 158 88 88 }
+}

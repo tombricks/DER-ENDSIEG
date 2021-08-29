@@ -93,3 +93,10 @@
  ENG_fascism_party_long: "Union Movement of Europe"
  ENG_ANGEVIN_PARTY: "Windsor-Plantagenet"
  ENG_ANGEVIN_PARTY_LONG: "House of Windsor-Plantagenet"
+ 
+ MDA_communism_party: "SPWR-ML"
+ MDA_communism_party_long: "Socialist Party of Western Russia - Marxist-Leninist"
+ MDA_socialism_party: "SPWR"
+ MDA_socialism_party_long: "Socialist Party of Western Russia"
+ MDA_democratic_party: "SPWR"
+ MDA_democratic_party_long: "Socialist Party of Western Russia"

@@ -7,11 +7,13 @@ leader_traits = {
 	TITLE_Emperor = {  }
 	TITLE_Prime_Minister = {  }
 	TITLE_Empress = {  }
+	TITLE_President = {  }
 	MINISTER_GER_Propaganda = {  }
 	MINISTER_GER_Rosenberg = {  }
 	MINISTER_GER_Armaments = {  }
 	MINISTER_BRG_Deputy_Reichsverweser = {  }
 	MINISTER_President = {  }
+	MINISTER_Chief_Advisor = {  }
 	
 	dictator = {
 		random = no

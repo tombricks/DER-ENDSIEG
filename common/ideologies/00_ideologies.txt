@@ -49,6 +49,7 @@ ideologies = {
 			
 			left_wing_nationalism = { }
 			anarchism = { can_be_randomly_selected = no }
+			democratic_socialism = {  }
 
 		}
 		
