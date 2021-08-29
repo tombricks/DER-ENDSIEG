@@ -5,7 +5,6 @@ set_stability = 0.6
 set_war_support = 0.5
 set_research_slots = 4
 set_convoys = 200
-country_lock_all_division_template = yes # No civil war division template cheesing for you
 
 set_variable = { AEIC_Legality = 2 } # Allowed
 set_variable = { AEIC_Population = 0 } # Insignificant
@@ -172,7 +171,6 @@ if = {
 }
 add_to_faction = HUN
 add_to_faction = SER
-add_to_faction = FRA
 
 create_country_leader = {
 	name = "Adolf Hitler"

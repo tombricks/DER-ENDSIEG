@@ -17,18 +17,58 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 100
+	communism = 10
+	socialism = 20
+	democratic = 15
+	neutrality = 30
+	fascism = 25
 }
 
 create_country_leader = {
-	name = "Pierre Laval"
-	picture = "Pierre Laval.dds"
+	name = "Léopold Martin"
+	picture = "Leopold Martin.dds"
+	ideology = marxism
+}
+
+create_country_leader = {
+	name = "Marie-Pierre Koenig"
+	picture = "Marie-Pierre Koenig.dds"
+	ideology = democratic_socialism
+}
+
+create_country_leader = {
+	name = "Marie-Pierre Koenig"
+	picture = "Marie-Pierre Koenig.dds"
+	ideology = liberalism
+}
+
+create_country_leader = {
+	name = "Philippe Pétain"
+	picture = "Philippe Petain.dds"
+	ideology = despotism
+	traits = { TITLE_Chief }
+}
+
+create_country_leader = {
+	name = "Jacques Doriot"
+	picture = "Jacques Doriot.dds"
 	ideology = fascism_ideology
 }
+
+add_ideas = {
+	FRA_DL_Pierre_Laval
+	FRA_LEtat_National
+	FRA_Retour_a_la_Terre
+	FRA_Third_Versaille_Treaty
+	FRA_Underground_Resistance
+}
+
+country_lock_all_division_template = yes
+set_rule = { can_not_declare_war = yes }

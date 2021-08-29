@@ -7,9 +7,45 @@ bookmarks = {
 		default_country = "GER"
 		default = yes
 		
+		"USA"={
+			history = "GER_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = {  }
+		}
+		
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			available = {  }
+		}
+		
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = {  }
+		}
+		
 		"GER"={
 			history = "GER_GATHERING_STORM_DESC"
 			ideology = fascism
+			available = {  }
+		}
+		
+		"ITA"={
+			history = "ITA_GATHERING_STORM_DESC"
+			ideology = fascism
+			available = {  }
+		}
+		
+		"CHI"={
+			history = "CHI_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = {  }
+		}
+		
+		"JAP"={
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = democratic
 			available = {  }
 		}
 

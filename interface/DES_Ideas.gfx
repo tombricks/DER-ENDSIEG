@@ -60,4 +60,24 @@ spriteTypes = {
 		name = "GFX_idea_MDA_Mikhail_Gorbachev"
 		textureFile = "gfx/interface/ideas/MDA_Mikhail_Gorbachev.dds"		
 	}
+	spriteType = {
+		name = "GFX_idea_FRA_DL_Pierre_Laval"
+		textureFile = "gfx/interface/ideas/FRA_Pierre_Laval.dds"		
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_LEtat_National"
+		textureFile = "gfx/interface/ideas/FRA_LEtat_National.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Retour_a_la_Terre"
+		textureFile = "gfx/interface/ideas/FRA_Retour_a_la_Terre.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Third_Versaille_Treaty"
+		textureFile = "gfx/interface/ideas/FRA_Third_Versaille_Treaty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Underground_Resistance"
+		textureFile = "gfx/interface/ideas/FRA_Underground_Resistance.dds"
+	}
 }

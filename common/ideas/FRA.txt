@@ -1,0 +1,64 @@
+ideas = {
+	dual_leader = {
+		FRA_DL_Pierre_Laval = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea FRA_DL_Pierre_Laval" }
+			allowed = { tag = BRG }
+			allowed_to_remove = { always = no }
+			cost = -1
+			visible = {
+			}
+			traits = { TITLE_President_of_the_Council }
+		}
+	}
+
+	country = {
+		FRA_LEtat_National = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea FRA_LEtat_National" }
+			available = {
+			}
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.05
+				recruitable_population_factor = 0.1
+			}
+		}
+		FRA_Retour_a_la_Terre = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea FRA_Retour_a_la_Terre" }
+			available = {
+			}
+			modifier = {
+				monthly_population = 0.05
+				production_factory_max_efficiency_factor = -0.1
+				research_speed_factor = -0.05
+			}
+		}
+		FRA_Third_Versaille_Treaty = {
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: Added Idea FRA_Third_Versaille_Treaty"
+				country_lock_all_division_template = yes
+				set_rule = { can_not_declare_war = yes }
+			}
+			on_remove = {
+				country_lock_all_division_template = no
+				set_rule = { can_not_declare_war = no }
+			}
+			available = {
+			}
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.5
+				production_speed_arms_factory_factor = -0.75
+				production_factory_efficiency_gain_factor = -0.5
+			}
+		}
+		FRA_Underground_Resistance = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea FRA_Underground_Resistance" }
+			available = {
+			}
+			modifier = {
+				resistance_growth = 0.15
+				stability_factor = -0.05
+			}
+		}
+	}
+}
