@@ -10,6 +10,14 @@
  OST_Reichskommissariat_fascism_ADJ: "Ostland"
 
 ### Parties
+OST_communism_party: "NKVD Cells"
+OST_communism_party_long: "NKVD Anti-Fascist Resistance"
+OST_socialism_party: "Native Resistance"
+OST_socialism_party_long: "Socialist Aligned Native Resistance"
+OST_democratic_party: "Native Resistance"
+OST_democratic_party_long: "Democratically Aligned Native Resistance"
+OST_neutrality_party: "Officer Cliques"
+OST_neutrality_party_long: "Heer and Collaborator Officer Cliques"
 
 ### Advisors
  OST_DL_Friedrich_Jeckeln: "Friedrich Jeckeln"
@@ -21,6 +29,8 @@
  OST_revolting_natives_desc: "An important part of running a Reichkommisariat is keeping native resistance under wraps. Here the colonial administration has failed, as more and more natives are joining underground revolutionary groups or engaging in anti-fascist activities. SS has had their influence greatly increased, with Jeckeln becoming the second-in command after Lohse. Still even with this increase in measures native resistance remains at an all-time high and doesn't look like its stopping"
  OST_Latvian_legionary_influence: "Latvian Legionary Influence"
  OST_Latvian_legionary_influence_desc: "As pacification efforts became more and more important to the Reichkommisariat native colaborators began rapidly rising trough the ranks of the government and military. Lohse took a particular liking towards the Latvian legionaries due to their fascist ideology and extreme anti-communism. Their biggest 'stars' are Viktors Arājs and Arvīds Blūmentāls, both being extreme Latvian nationalists and nazi sympathisers"
+ OST_overbloated_wehrmacht: "Overbloated Wehrmacht"
+ OST_overbloated_wehrmacht_desc: "As the war against Soviet Union was closing a lot of units no longer had a porpuse beyond anti-partisan activities, but due to high militarist influence these units were kept and even given bigger and bigger funding. The general state of the military is lackluster at best with most members being incompetent and stagnant in military practice, knowing far more about killing civilians than actually fighting. Matters are not made better by the fact that the military became an unemployment dump, so without a doubt reducing its scale would hurt the economy."
 
 ### Decisions
 
@@ -29,3 +39,4 @@
 ### Events
 
 ### Other
+OST_overbloated_wehrmacht_tt: "§RCannot train units, disband units, or edit unit templates.§!"

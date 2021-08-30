@@ -1,0 +1,176 @@
+division_template = {
+	name = "Heer Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "SS Division"
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Foreign Legions"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st SS unit"
+		location = 9340
+		division_template = "SS Division"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "2nd SS unit"
+		location = 9262
+		division_template = "SS Division"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3rd SS unit"
+		location = 11370
+		division_template = "SS Division"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4th SS unit"
+		location = 3152
+		division_template = "SS Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Pirmā Legionārā vienība"
+		location = 310
+		division_template = "Foreign Legions"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Otrā Legionārā vienība"
+		location = 6296
+		division_template = "Foreign Legions"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Trešā Legionārā vienība"
+		location = 3320
+		division_template = "Foreign Legions"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Ceturtā Legionārā vienība"
+		location = 11241
+		division_template = "Foreign Legions"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Piektā Legionārā vienība"
+		location = 9098
+		division_template = "Foreign Legions"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Sestā Legionārā vienība"
+		location = 6314
+		division_template = "Foreign Legions"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Septītā Legionārā vienība"
+		location = 11313
+		division_template = "Foreign Legions"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Astotā Legionārā vienība"
+		location = 406
+		division_template = "Foreign Legions"
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Ostland Heer 1."
+		location = 9340
+		division_template = "Heer Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "Ostland Heer 2."
+		location = 9340
+		division_template = "Heer Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "Ostland Heer 3."
+		location = 3152
+		division_template = "Heer Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "Ostland Heer 4."
+		location = 3152
+		division_template = "Heer Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "Ostland Heer 5."
+		location = 11370
+		division_template = "Heer Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "Ostland Heer 6."
+		location = 11370
+		division_template = "Heer Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.85
+	}
+}

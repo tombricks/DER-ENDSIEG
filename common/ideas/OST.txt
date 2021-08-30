@@ -43,5 +43,21 @@ ideas = {
 				army_attack_factor = 0.05
 			}
 		}
+		OST_overbloated_wehrmacht = {
+			on_add = { 
+				log = "[GetDateText]: [Root.GetName]: Added Idea OST_overbloated_wehrmacht" 
+			}
+			available = {
+				has_government = fascism
+			}
+			modifier = {
+				army_attack_factor = -0.25
+				army_defence_factor = -0.15
+				army_org = -0.5
+				experience_gain_army_factor = -0.25
+				recruitable_population = 0.025 
+				custom_modifier_tooltip = OST_overbloated_wehrmacht_tt
+			}
+		}
 	}
 }

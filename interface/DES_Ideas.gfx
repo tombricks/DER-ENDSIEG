@@ -92,4 +92,8 @@ spriteTypes = {
 		name = "GFX_idea_OST_Latvian_legionary_influence"
 		textureFile = "gfx/interface/ideas/OST_Latvian_legionary_influence.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_OST_overbloated_wehrmacht"
+		textureFile = "gfx/interface/ideas/OST_overbloated_military.dds"
+	}
 }

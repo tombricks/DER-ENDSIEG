@@ -28,6 +28,7 @@ set_technology = {
 	trench_warfare = 1
 	fuel_silos = 1
 	fleet_in_being = 1
+	motorised_infantry = 1
 }
 if = {
 	limit = {
@@ -86,4 +87,7 @@ add_ideas = {
 	OST_germanization
 	OST_revolting_natives
 	OST_Latvian_legionary_influence
+	OST_overbloated_wehrmacht
 }
+
+country_lock_all_division_template = yes
