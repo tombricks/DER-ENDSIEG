@@ -68,7 +68,10 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 100
+	fascism = 60
+	neutrality = 20
+	democratic = 20
+	communism = 20
 }
 
 create_country_leader = {
@@ -80,4 +83,7 @@ create_country_leader = {
 
 add_ideas = {
 	OST_DL_Friedrich_Jeckeln
+	OST_germanization
+	OST_revolting_natives
+	OST_Latvian_legionary_influence
 }

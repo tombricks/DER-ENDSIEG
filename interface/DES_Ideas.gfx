@@ -80,4 +80,16 @@ spriteTypes = {
 		name = "GFX_idea_FRA_Underground_Resistance"
 		textureFile = "gfx/interface/ideas/FRA_Underground_Resistance.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_OST_germanization"
+		textureFile = "gfx/interface/ideas/OST_germanization.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OST_revolting_natives"
+		textureFile= "gfx/interface/ideas/OST_rebelling_natives.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OST_Latvian_legionary_influence"
+		textureFile = "gfx/interface/ideas/OST_Latvian_legionary_influence.dds"
+	}
 }
