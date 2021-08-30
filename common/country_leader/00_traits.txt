@@ -176,10 +176,6 @@ leader_traits = {
 		trade_laws_cost_factor = 0.25
 		mobilization_laws_cost_factor = 0.25
 		economy_cost_factor = 0.25
-		high_command_cost_factor = 0.25
-		air_chief_cost_factor = 0.25
-		army_chief_cost_factor = 0.25
-		navy_chief_cost_factor = 0.25
 		
 		ai_will_do = {
 			factor = 1
@@ -215,10 +211,6 @@ leader_traits = {
 		trade_laws_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25
-		high_command_cost_factor = -0.25
-		air_chief_cost_factor = -0.25
-		army_chief_cost_factor = -0.25
-		navy_chief_cost_factor = -0.25
 		
 		ai_will_do = {
 			factor = 1
@@ -704,10 +696,6 @@ leader_traits = {
 		trade_laws_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25
-		high_command_cost_factor = -0.25
-		air_chief_cost_factor = -0.25
-		army_chief_cost_factor = -0.25
-		navy_chief_cost_factor = -0.25
 		
 		ai_will_do = {
 			factor = 1
@@ -753,10 +741,6 @@ leader_traits = {
 	retired_officer = {
 		random = yes
 		war_support_factor = 0.05
-		high_command_cost_factor = -0.25
-		air_chief_cost_factor = -0.25
-		army_chief_cost_factor = -0.25
-		navy_chief_cost_factor = -0.25
 
 		ai_will_do = {
 			factor = 1
@@ -823,10 +807,6 @@ leader_traits = {
 	}
 	american_caesar = {
 		random = no
-		high_command_cost_factor = -0.25
-		air_chief_cost_factor = -0.25
-		army_chief_cost_factor = -0.25
-		navy_chief_cost_factor = -0.25
 		army_core_attack_factor = 0.1
 		army_core_defence_factor = 0.1
 	}
@@ -843,10 +823,6 @@ leader_traits = {
 		trade_laws_cost_factor = -0.25
 		mobilization_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25
-		high_command_cost_factor = -0.25
-		air_chief_cost_factor = -0.25
-		army_chief_cost_factor = -0.25
-		navy_chief_cost_factor = -0.25
 		
 		ai_will_do = {
 			factor = 1
@@ -1018,10 +994,6 @@ leader_traits = {
 		random = no
 		production_speed_arms_factory_factor = 0.1
 		political_power_gain = -0.1
-		high_command_cost_factor = -0.34
-		air_chief_cost_factor = -0.34
-		army_chief_cost_factor = -0.34
-		navy_chief_cost_factor = -0.34
 	}
 
 	empire_builder = {
@@ -1038,13 +1010,11 @@ leader_traits = {
 	caudillo_1 = {
 		random = no
 		resistance_damage_to_garrison = -0.15
-		high_command_cost_factor = -0.15
 	}
 
 	caudillo_2 = {
 		random = no
 		resistance_damage_to_garrison = -0.15
-		high_command_cost_factor = -0.15
 		max_command_power = 20
 		command_power_gain_mult = 0.25
 	}
@@ -1126,10 +1096,6 @@ leader_traits = {
 		random = no
 		stability_factor = -0.1
 		political_advisor_cost_factor = -0.15
-		high_command_cost_factor = -0.15
-		air_chief_cost_factor = -0.15
-		army_chief_cost_factor = -0.15
-		navy_chief_cost_factor = -0.15
 		
 		ai_will_do = {
 			factor = 1
@@ -1224,10 +1190,6 @@ leader_traits = {
 		random = no
 		stability_factor = 0.3
 		political_advisor_cost_factor = -0.3
-		high_command_cost_factor = -0.3
-		air_chief_cost_factor = -0.3
-		army_chief_cost_factor = -0.3
-		navy_chief_cost_factor = -0.3
 		mobilization_laws_cost_factor = -0.25
 		economy_cost_factor = -0.25
 	}
@@ -1236,10 +1198,6 @@ leader_traits = {
 		random = no
 		stability_factor = 0.3
 		political_advisor_cost_factor = -0.22
-		high_command_cost_factor = -0.22
-		air_chief_cost_factor = -0.22
-		army_chief_cost_factor = -0.22
-		navy_chief_cost_factor = -0.22
 		mobilization_laws_cost_factor = -0.18
 		economy_cost_factor = -0.18
 	}
@@ -1248,10 +1206,6 @@ leader_traits = {
 		random = no
 		stability_factor = 0.3
 		political_advisor_cost_factor = -0.15
-		high_command_cost_factor = -0.15
-		air_chief_cost_factor = -0.15
-		army_chief_cost_factor = -0.15
-		navy_chief_cost_factor = -0.15
 		mobilization_laws_cost_factor = -0.12
 		economy_cost_factor = -0.12
 	}
@@ -1260,10 +1214,6 @@ leader_traits = {
 		random = no
 		stability_factor = 0.3
 		political_advisor_cost_factor = -0.075
-		high_command_cost_factor = -0.075
-		air_chief_cost_factor = -0.075
-		army_chief_cost_factor = -0.075
-		navy_chief_cost_factor = -0.075
 		mobilization_laws_cost_factor = -0.05
 		economy_cost_factor = -0.05
 	}
@@ -1282,10 +1232,6 @@ leader_traits = {
 		random = no
 		political_power_factor = -0.25
 		political_advisor_cost_factor = 0.25
-		high_command_cost_factor = 0.25
-		air_chief_cost_factor = 0.25
-		army_chief_cost_factor = 0.25
-		navy_chief_cost_factor = 0.25
 		mobilization_laws_cost_factor = 0.25
 		economy_cost_factor = 0.25
 	}
@@ -1295,10 +1241,6 @@ leader_traits = {
 		stability_factor = 0.15
 		war_support_factor = -0.1
 		political_advisor_cost_factor = -0.25
-		high_command_cost_factor = -0.15
-		air_chief_cost_factor = -0.15
-		army_chief_cost_factor = -0.15
-		navy_chief_cost_factor = -0.15
 	}
 
 	caliph = { #shared monarch trait
@@ -1321,10 +1263,6 @@ leader_traits = {
 		war_support_factor = 0.1
 		compliance_gain = 0.01
 		political_advisor_cost_factor = -0.33
-		high_command_cost_factor = -0.33
-		air_chief_cost_factor = -0.33
-		army_chief_cost_factor = -0.33
-		navy_chief_cost_factor = -0.33
 	}
 
 	crown_regent = { #Esad Pasha
@@ -1902,10 +1840,6 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				not = { has_completed_focus = USA_suspend_the_presecution }
-				factor = 0
-			}
 		}
 	}
 	
@@ -1928,10 +1862,6 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = { 
-				not = { has_completed_focus = USA_america_first }
-				factor = 0
-			}
 		}
 	}
 	staunch_monarchist = {
@@ -1942,11 +1872,6 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = HUN
-				not = { has_completed_focus = HUN_invite_the_habsburg_prince }
-				factor = 0
-			}
 		}
 	}
 	
