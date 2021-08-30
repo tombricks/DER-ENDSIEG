@@ -1,6 +1,6 @@
 leader_traits = {
 	TITLE_Fuhrer = {  }
-	TITLE_Reichsleiter = {  }
+	TITLE_Deputy_Fuhrer = {  }
 	TITLE_Reichsverweser = {  }
 	TITLE_Chancellor = {  }
 	TITLE_Queen = {  }

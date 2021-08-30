@@ -1,3 +1,53 @@
 ﻿l_english:
+### Country Names
+ MDA: "Meat and Dairy Industry"
+ MDA_DEF: "the Meat and Dairy Industry"
+ MDA_ADJ: "Meat and Dairy Industry"
+ MDA_communism: "People's Commissariat of Meat and Dairy Industry"
+ MDA_communism_DEF: "the People's Commissariat of Meat and Dairy Industry"
+ MDA_communism_ADJ: "People's Commissariat of Meat and Dairy Industry"
+ MDA_neutrality: "People's Commissariat of Meat and Dairy Industry"
+ MDA_neutrality_DEF: "the People's Commissariat of Meat and Dairy Industry"
+ MDA_neutrality_ADJ: "People's Commissariat of Meat and Dairy Industry"
+ MDA_socialism: "People's Commissariat of Meat and Dairy Industry"
+ MDA_socialism_DEF: "the People's Commissariat of Meat and Dairy Industry"
+ MDA_socialism_ADJ: "People's Commissariat of Meat and Dairy Industry"
+
+### Cosmetics
+ MDA_REPUBLIC_communism: "Socialist Republic of Western Russia"
+ MDA_REPUBLIC_communism_DEF: "the Socialist Republic of Western Russia"
+ MDA_REPUBLIC_communism_ADJ: "West Russian"
+ MDA_REPUBLIC_socialism: "Socialist Republic of Western Russia"
+ MDA_REPUBLIC_socialism_DEF: "the Socialist Republic of Western Russia"
+ MDA_REPUBLIC_socialism_ADJ: "West Russian"
+ MDA_REPUBLIC_democratic: "Republic of Western Russia"
+ MDA_REPUBLIC_democratic_DEF: "the Republic of Western Russia"
+ MDA_REPUBLIC_democratic_ADJ: "West Russian"
+ MDA_REPUBLIC_neutrality: "West Russian State"
+ MDA_REPUBLIC_neutrality_DEF: "the West Russian State"
+ MDA_REPUBLIC_neutrality_ADJ: "West Russian"
+ MDA_REPUBLIC_fascism: "West Russian Empire"
+ MDA_REPUBLIC_fascism_DEF: "the West Russian Empire"
+ MDA_REPUBLIC_fascism_ADJ: "West Russian"
+
+### Parties
+ MDA_communism_party: "SPWR-ML"
+ MDA_communism_party_long: "Socialist Party of Western Russia - Marxist-Leninist"
+ MDA_socialism_party: "SPWR"
+ MDA_socialism_party_long: "Socialist Party of Western Russia"
+ MDA_democratic_party: "SPWR"
+ MDA_democratic_party_long: "Socialist Party of Western Russia"
+
+### Advisors
  MDA_DL_Nikita_Khrushchev: "Nikita Khrushchev"
  MDA_Mikhail_Gorbachev: "Mikhail Gorbachev"
+
+### National Spirits
+
+### Decisions
+
+### Focuses
+
+### Events
+
+### Other

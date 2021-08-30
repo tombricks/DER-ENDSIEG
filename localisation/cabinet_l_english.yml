@@ -4,7 +4,7 @@
  leader_tt: "[This.GetFlag] [This.Get_Leader_Title] §Y[This.GetLeader]§!"
  deputy_tt: "[This.GetFlag] [This.Get_Deputy_Title] §Y[This.Get_Deputy_Name]§!"
  TITLE_Fuhrer: "Führer"
- TITLE_Reichsleiter: "Reichsleiter"
+ TITLE_Deputy_Fuhrer: "Deputy Führer"
  TITLE_Reichsverweser: "Reichsverweser"
  TITLE_Chancellor: "Chancellor"
  TITLE_Queen: "Queen"

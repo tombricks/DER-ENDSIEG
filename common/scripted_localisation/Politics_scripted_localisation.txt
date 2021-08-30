@@ -6,6 +6,7 @@ defined_text = {
 	text = { trigger = { has_idea = MDA_DL_Nikita_Khrushchev } localization_key = MDA_DL_Nikita_Khrushchev }
 	text = { trigger = { has_idea = FRA_DL_Pierre_Laval } localization_key = FRA_DL_Pierre_Laval }
 	text = { trigger = { has_idea = OST_DL_Friedrich_Jeckeln } localization_key = OST_DL_Friedrich_Jeckeln }
+	text = { trigger = { has_idea = UKR_DL_Hans_Adolf_Prutzmann } localization_key = UKR_DL_Hans_Adolf_Prutzmann }
 	text = { localization_key = "N/A" }
 }
 defined_text = { 
@@ -16,7 +17,7 @@ defined_text = {
 defined_text = { 
 	name = Get_Leader_Title
 	text = { trigger = { has_country_leader_with_trait = TITLE_Fuhrer } localization_key = TITLE_Fuhrer }
-	text = { trigger = { has_country_leader_with_trait = TITLE_Reichsleiter } localization_key = TITLE_Reichsleiter }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Deputy_Fuhrer } localization_key = TITLE_Deputy_Fuhrer }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Reichsverweser } localization_key = TITLE_Reichsverweser }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Chancellor } localization_key = TITLE_Chancellor }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Queen } localization_key = TITLE_Queen }
@@ -63,7 +64,7 @@ defined_text = {
 defined_text = { 
 	name = Get_Deputy_Title
 	text = { trigger = { has_idea_with_trait = TITLE_Fuhrer } localization_key = TITLE_Fuhrer }
-	text = { trigger = { has_idea_with_trait = TITLE_Reichsleiter } localization_key = TITLE_Reichsleiter }
+	text = { trigger = { has_idea_with_trait = TITLE_Deputy_Fuhrer } localization_key = TITLE_Deputy_Fuhrer }
 	text = { trigger = { has_idea_with_trait = TITLE_Reichsverweser } localization_key = TITLE_Reichsverweser }
 	text = { trigger = { has_idea_with_trait = TITLE_Chancellor } localization_key = TITLE_Chancellor }
 	text = { trigger = { has_idea_with_trait = TITLE_Queen } localization_key = TITLE_Queen }

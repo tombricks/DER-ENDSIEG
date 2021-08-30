@@ -73,7 +73,11 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Erich Koch"
-	desc = ""
 	picture = "Erich Koch.dds"
 	ideology = nazism
+	traits = { TITLE_Reichskommissar }
+}
+
+add_ideas = {
+	UKR_DL_Hans_Adolf_Prutzmann
 }

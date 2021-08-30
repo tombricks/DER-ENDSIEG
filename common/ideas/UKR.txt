@@ -1,0 +1,14 @@
+ideas = {
+	dual_leader = {
+		UKR_DL_Hans_Adolf_Prutzmann = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea UKR_DL_Hans_Adolf_Prutzmann" }
+			allowed = { tag = UKR }
+			allowed_to_remove = { always = no }
+			cost = -1
+			visible = {
+				has_government = fascism
+			}
+			traits = { TITLE_SS_and_Police_Leader }
+		}
+	}
+}

@@ -1,3 +1,31 @@
 ﻿l_english:
+### Country Names
+ BRG: "Burgundy"
+ BRG_DEF: "Burgundy"
+ BRG_ADJ: "Burgundian"
+
+### Cosmetics
+ BRG_Ordensstaat_fascism: "Ordensstaat Burgund"
+ BRG_Ordensstaat_fascism_DEF: "der Ordensstaat Burgund"
+ BRG_Ordensstaat_fascism_ADJ: "Moldawien"
+
+### Parties
+ GER_BRG_party: "Burgundische-SS"
+ GER_BRG_party_long: "Burgundian Schutzstaffel"
+
+ BRG_AHN_party: "Ahnenerbe"
+ BRG_AHN_party_long: "Ancestral Heritage"
+
+### Advisors
  BRG_DL_Leon_Degrelle: "Léon Degrelle"
  BRG_Gottlob_Berger: "Gottlob Berger"
+
+### National Spirits
+
+### Decisions
+
+### Focuses
+
+### Events
+
+### Other

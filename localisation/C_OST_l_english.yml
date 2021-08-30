@@ -1,2 +1,25 @@
 ﻿l_english:
+### Country Names
+ OST: "Ostland"
+ OST_DEF: "Ostland"
+ OST_ADJ: "Ostland"
+
+### Cosmetics
+ OST_Reichskommissariat_fascism: "Reichskommissariat Ostland"
+ OST_Reichskommissariat_fascism_DEF: "das Reichskommissariat Ostland"
+ OST_Reichskommissariat_fascism_ADJ: "Ostland"
+
+### Parties
+
+### Advisors
  OST_DL_Friedrich_Jeckeln: "Friedrich Jeckeln"
+
+### National Spirits
+
+### Decisions
+
+### Focuses
+
+### Events
+
+### Other
