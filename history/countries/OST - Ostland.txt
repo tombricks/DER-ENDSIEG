@@ -8,6 +8,7 @@ set_party_name = {
 	name = GER_RK_party
 	long_name = GER_RK_party_long
 }
+country_lock_all_division_template = yes
 
 # Starting tech
 set_technology = {
@@ -88,6 +89,6 @@ add_ideas = {
 	OST_revolting_natives
 	OST_Latvian_legionary_influence
 	OST_overbloated_wehrmacht
+	OST_Walter_Braemer
+	OST_victors_arajs
 }
-
-country_lock_all_division_template = yes

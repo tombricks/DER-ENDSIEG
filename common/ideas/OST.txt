@@ -60,4 +60,35 @@ ideas = {
 			}
 		}
 	}
+	political_advisor = {
+		OST_Walter_Braemer = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea OST_Walter_Braemer" set_variable = { last_advisor = OST_Walter_Braemer } }
+			allowed = { tag = OST }
+			visible = {
+				has_government = fascism
+			}
+			traits = {
+				TITLE_Supreme_Military_Commander
+			}
+			modifier = {
+				monthly_population = -0.05
+				stability_factor = -0.05
+			}
+		}
+		OST_victors_arajs = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea OST_victors_arajs" set_variable = { last_advisor = OST_victors_arajs } }
+			allowed = { tag = OST }
+			visible = {
+				has_government = fascism
+			}
+			traits = {
+				TITLE_Supreme_Collab_Commander
+			}
+			modifier = {
+				political_power_factor = -0.10
+				resistance_growth = -0.10
+				non_core_manpower = 0.025
+			}
+		}
+	}
 }

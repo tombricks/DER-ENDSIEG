@@ -46,6 +46,8 @@
  TITLE_Governor: "Governor"
  TITLE_Minister_President: "Minister President"
  TITLE_Minister: "Minister"
+ TITLE_Supreme_Military_Commander: "Supreme Military Commander"
+ TITLE_Supreme_Collab_Commander: "Supreme Collaborator Unit Commander"
  MINISTER_GER_Propaganda: "Reich Minister of Public Enlightenment and Propaganda"
  MINISTER_GER_Rosenberg: "Reich Minister for the Wider Territories"
  MINISTER_GER_Armaments: "Reich Minister for Armaments and Production"
