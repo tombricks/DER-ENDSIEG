@@ -1,0 +1,56 @@
+ideas = {
+	dual_leader = {
+		BRI_DL_Francois_Debeauvais = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea BRI_DL_Francois_Debeauvais" }
+			allowed = { tag = BRI }
+			allowed_to_remove = { always = no }
+			cost = -1
+			visible = {
+				has_government = fascism
+			}
+			traits = { TITLE_Governor }
+		}
+	}
+
+	country = {
+		BRI_Gwenn_ha_du = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea BRI_Gwenn_ha_du" }
+			available = {
+				has_government = fascism
+			}
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.1
+				fascism_drift = 0.05
+			}
+		}
+		BRI_La_Resistance = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea BRI_La_Resistance" }
+			available = {
+				has_government = fascism
+			}
+			modifier = {
+				resistance_growth = 0.125
+				neutrality_drift = 0.01
+				democratic_drift = 0.01
+				socialism_drift = 0.01
+			}
+		}
+	}
+
+	political_advisor = {
+		BRI_Neven_Henaff = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea BRI_Neven_Henaff" set_variable = { last_advisor = BRI_Joseph_Goebbels } }
+			allowed = { tag = BRI }
+			visible = {
+				has_government = fascism
+			}
+			traits = { MINISTER_Commander }
+			modifier = {
+				training_time_army_factor = -0.125
+				army_defence_factor = 0.1
+				army_attack_factor = 0.1
+			}
+		}
+	}
+}

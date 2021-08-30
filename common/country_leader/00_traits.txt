@@ -19,6 +19,7 @@ leader_traits = {
     TITLE_Duce = {  }
     TITLE_Forer = {  }
     TITLE_Caudillo = {  }
+    TITLE_Mestr = {  }
     TITLE_General = {  }
     TITLE_Commander = {  }
     TITLE_Supreme_Commander = {  }
@@ -47,6 +48,7 @@ leader_traits = {
 	MINISTER_BRG_Deputy_Reichsverweser = {  }
 	MINISTER_President = {  }
 	MINISTER_Chief_Advisor = {  }
+	MINISTER_Commander = {  }
 	
 	dictator = {
 		random = no

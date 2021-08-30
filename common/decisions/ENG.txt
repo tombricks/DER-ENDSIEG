@@ -7,6 +7,7 @@ political_actions = {
 			original_tag = ENG
 		}
 		available = {
+			controls_state = 812
 			controls_state = 15
 			controls_state = 30
 		}

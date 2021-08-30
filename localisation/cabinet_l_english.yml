@@ -23,6 +23,7 @@
  TITLE_Duce: "Duce"
  TITLE_Forer: "Fører"
  TITLE_Caudillo: "Caudillo"
+ TITLE_Mestr: "Mestr"
  TITLE_General: "General"
  TITLE_Commander: "Commander"
  TITLE_Supreme_Commander: "Supreme Commander"
@@ -51,3 +52,4 @@
  MINISTER_BRG_Deputy_Reichsverweser: "Deputy Reichsverweser"
  MINISTER_President: "President"
  MINISTER_Chief_Advisor: "Chief Advisor"
+ MINISTER_Commander: "Commander"

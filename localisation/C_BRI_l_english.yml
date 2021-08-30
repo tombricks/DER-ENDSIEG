@@ -1,0 +1,50 @@
+﻿l_english:
+### Country Names
+ BRI_communism: "Breton Socialist Republic"
+ BRI_communism_DEF: "the Breton Socialist Republic"
+ BRI_communism_ADJ: "Breton"
+ BRI_socialism: "Breton Socialist Republic"
+ BRI_socialism_DEF: "the Breton Socialist Republic"
+ BRI_socialism_ADJ: "Breton"
+ BRI_democratic: "Breton Republic"
+ BRI_democratic_DEF: "the Breton Republic"
+ BRI_democratic_ADJ: "Breton"
+ BRI_neutrality: "Breton State"
+ BRI_neutrality_DEF: "the Breton State"
+ BRI_neutrality_ADJ: "Breton"
+ BRI_fascism: "Breton State"
+ BRI_fascism_DEF: "the Breton State"
+ BRI_fascism_ADJ: "Breton"
+ BRI: "Brittany"
+ BRI_DEF: "Brittany"
+ BRI_ADJ: "Breton"
+
+### Cosmetics
+
+### Parties
+ BRI_communism_party: "BRI"
+ BRI_communism_party_long: "International Red Brigade"
+ BRI_socialism_party: "FRB"
+ BRI_socialism_party_long: "Breton Revolutionary Front"
+ BRI_democratic_party: "FFI"
+ BRI_democratic_party_long: "French Forces of the Interior"
+ BRI_neutrality_party: "PNB"
+ BRI_neutrality_party_long: "Breton National Party"
+ BRI_fascism_party: "PNB"
+ BRI_fascism_party_long: "Breton National Party"
+
+### Advisors
+ BRI_DL_Francois_Debeauvais: "Francois Debeauvais"
+ BRI_Neven_Henaff: "Neven Hénaff"
+
+### National Spirits
+ BRI_Gwenn_ha_du: "Gwenn ha du"
+ BRI_La_Resistance: "La Résistance"
+
+### Decisions
+
+### Focuses
+
+### Events
+
+### Other

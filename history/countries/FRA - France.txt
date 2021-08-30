@@ -24,29 +24,32 @@ set_politics = {
 }
 
 set_popularities = {
-	communism = 10
-	socialism = 20
+	communism = 4.3
+	socialism = 12.7
 	democratic = 15
-	neutrality = 30
-	fascism = 25
+	neutrality = 44.9
+	fascism = 23.1
 }
 
 create_country_leader = {
 	name = "Léopold Martin"
 	picture = "Leopold Martin.dds"
 	ideology = marxism
+	traits = { TITLE_General_Secretary }
 }
 
 create_country_leader = {
 	name = "Marie-Pierre Koenig"
 	picture = "Marie-Pierre Koenig.dds"
 	ideology = democratic_socialism
+	traits = { TITLE_General }
 }
 
 create_country_leader = {
 	name = "Marie-Pierre Koenig"
 	picture = "Marie-Pierre Koenig.dds"
-	ideology = liberalism
+	ideology = conservatism
+	traits = { TITLE_General }
 }
 
 create_country_leader = {
@@ -60,6 +63,7 @@ create_country_leader = {
 	name = "Jacques Doriot"
 	picture = "Jacques Doriot.dds"
 	ideology = fascism_ideology
+	traits = { TITLE_President }
 }
 
 add_ideas = {

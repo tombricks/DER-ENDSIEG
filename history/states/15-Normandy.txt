@@ -9,18 +9,10 @@ state={
 	history={
 		owner = FRA
 		set_state_flag = FRA_1936
-		victory_points = {
-			6449 3 
-		}
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 2
 			air_base = 6
-			6449 = {
-				naval_base = 3
-				coastal_bunker = 1
-
-			}
 			9434 = {
 				naval_base = 5
 				coastal_bunker = 1
@@ -37,9 +29,9 @@ state={
 	}
 
 	provinces={
-		539 553 3534 3549 3579 6449 6599 9550 9578 11521 11535 
+		539 553 3534 3549 3579 6599 9578 11521 11535 
 	}
-	manpower=2332100
+	manpower=2252979
 	buildings_max_level_factor=1.000
 	state_category=city
 }

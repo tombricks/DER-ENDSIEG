@@ -20,11 +20,14 @@ state={
 		}
 		add_core_of = FRA
 		set_state_flag = FRA_1936
+		victory_points = {
+			3652 5 
+		}
 
 	}
 
 	provinces={
-		3646 3666 6698 9642 9658 11488 11642 
+		680 817 3646 3650 3652 3666 6668 6698 9642 9658 11488 11642 
 	}
 	manpower=1517500
 	buildings_max_level_factor=1.000

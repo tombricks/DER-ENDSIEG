@@ -17,12 +17,58 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	communism = 10
+	socialism = 17
+	democratic = 12
+	neutrality = 18
+	fascism = 43
+}
+
+create_country_leader = {
+	name = "Léopold Martin"
+	picture = "gfx/leaders/FRA/Leopold Martin.dds"
+	ideology = marxism
+	traits = { TITLE_General_Secretary }
+}
+
+create_country_leader = {
+	name = "Yann Fouéré"
+	picture = "Yann Fouere.dds"
+	ideology = left_wing_nationalism
+	traits = { TITLE_General }
+}
+
+create_country_leader = {
+	name = "Marie-Pierre Koenig"
+	picture = "Marie-Pierre Koenig.dds"
+	ideology = conservatism
+	traits = { TITLE_General }
+}
+
+create_country_leader = {
+	name = "Maurice Duhamel"
+	picture = "Maurice Duhamel.dds"
+	ideology = despotism
+	traits = { TITLE_Governor }
+}
+
+create_country_leader = {
+	name = "Olier Mordrel"
+	picture = "Olier Mordrel.dds"
+	ideology = fascism_ideology
+	traits = { TITLE_Mestr }
+}
+
+add_ideas = {
+	BRI_DL_Francois_Debeauvais
+	BRI_Gwenn_ha_du
+	BRI_La_Resistance
+	BRI_Neven_Henaff
 }

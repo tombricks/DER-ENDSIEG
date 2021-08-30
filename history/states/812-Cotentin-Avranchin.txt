@@ -1,0 +1,27 @@
+
+state={
+	id=812
+	name="STATE_812"
+	provinces={
+		6449 9550 
+	}
+	history = {
+		owner = FRA
+		set_state_flag = FRA_1936
+		victory_points = {
+			6449 3 
+		}
+		add_core_of = BRI
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 5
+			6449 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+	manpower=79121
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}
