@@ -73,7 +73,11 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Hinrich Lohse"
-	desc = ""
 	picture = "Hinrich Lohse.dds"
 	ideology = nazism
+	traits = { TITLE_Reichskommissar }
+}
+
+add_ideas = {
+	OST_DL_Friedrich_Jeckeln
 }

@@ -231,9 +231,10 @@ guiTypes = {
 				
 				iconType = {
 					name = "diplo_leader_frame"
-					position = { x = 13 y = 4 }
+					position = { x = -130000 y = 0 }
 					spriteType = "GFX_diplo_leader_frame"
-					alwaystransparent = yes
+					alwaystransparent = no
+					pdx_tooltip = "leader_2tt"
 					scale = 0.945
 				}
 				

@@ -1,0 +1,14 @@
+ideas = {
+	dual_leader = {
+		OST_DL_Friedrich_Jeckeln = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: Added Idea OST_DL_Friedrich_Jeckeln" }
+			allowed = { tag = OST }
+			allowed_to_remove = { always = no }
+			cost = -1
+			visible = {
+				has_government = fascism
+			}
+			traits = { TITLE_SS_and_Police_Leader }
+		}
+	}
+}

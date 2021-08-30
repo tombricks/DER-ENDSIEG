@@ -11,10 +11,20 @@ guiTypes = {
 		}
 				
 		iconType = {
-			name = "diplo_leader_frame"
+			name = "diplo_leader_frame1"
+			position = { x = 13 y = 114 }
+			spriteType = "GFX_diplo_leader_frame"
+			alwaystransparent = no
+			pdx_tooltip = "leader_tt"
+			scale = 0.945
+		}
+				
+		iconType = {
+			name = "diplo_leader_frame2"
 			position = { x = 127 y = 114 }
 			spriteType = "GFX_diplo_leader_frame"
-			alwaystransparent = yes
+			alwaystransparent = no
+			pdx_tooltip = "deputy_tt"
 			scale = 0.945
 		}
     }
