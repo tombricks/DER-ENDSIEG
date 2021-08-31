@@ -3164,5 +3164,9 @@
  RUS_neutrality_ADJ: "Russian"
 
  RSC: "Russia Society"
- RSC_DEF: "Russia Society"
+ RSC_DEF: "the Russia Society"
  RSC_ADJ: "Russia Society"
+
+ ROA: "Russian Liberation Army"
+ ROA_DEF: "the Russian Liberation Army"
+ ROA_ADJ: "Russian Liberation Army"

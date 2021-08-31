@@ -769,3 +769,7 @@ MDA = {
 	color = rgb { 158 88 88 }
 	color_ui = rgb { 158 88 88 }
 }
+ROA = {
+	color = rgb { 82 76 72 }
+	color_ui = rgb { 82 76 72 }
+}
