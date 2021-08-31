@@ -495,6 +495,11 @@ guiTypes = {
 				format = "UPPER_LEFT"
 			}
 
+			containerWindowType = {
+				name = "ideasd"
+				position = { x = 0 y = 0 }
+				size = { width=100%% height=100%% }
+			}
 
 		}
 

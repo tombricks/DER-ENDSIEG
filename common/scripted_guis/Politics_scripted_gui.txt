@@ -13,6 +13,12 @@ scripted_gui = {
 				image = "[Get_Deputy_GFX]"
 			}
 		}
+	}
+
+	Ideas_Scripted_GUI = {
+		context_type = player_context
+		window_name = "Ideas_Scripted_GUI_window"
+		parent_window_name = "ideasd"
 
 		triggers = {
 			minister_lock_1_visible = { NOT = { check_variable = { unlocked_advisors > 0 } } }

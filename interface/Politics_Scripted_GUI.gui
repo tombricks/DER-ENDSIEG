@@ -47,12 +47,17 @@ guiTypes = {
 			format = center
 			vertical_alignment = center
 		}
-		
+	}
+
+	containerWindowType = {
+		name = "Ideas_Scripted_GUI_window"
+		position = { x = 0 y = 150 }
+
 		iconType = {
 			name = "minister_lock_1"
 			spriteType = "GFX_minister_lock"
 			alwaystransparent = no
-			position = { x = 234 y = 667 }		
+			position = { x = 234 y = 0 }		
 			pdx_tooltip = "minister_lock_tt"
         }
 		
@@ -60,7 +65,7 @@ guiTypes = {
 			name = "minister_lock_2"
 			spriteType = "GFX_minister_lock"
 			alwaystransparent = no
-			position = { x = 334 y = 667 }		
+			position = { x = 334 y = 0 }		
 			pdx_tooltip = "minister_lock_tt"
         }
 		
@@ -68,7 +73,7 @@ guiTypes = {
 			name = "minister_lock_3"
 			spriteType = "GFX_minister_lock"
 			alwaystransparent = no
-			position = { x = 434 y = 667 }
+			position = { x = 434 y = 0 }
 			pdx_tooltip = "minister_lock_tt"
         }
     }
