@@ -1,7 +1,7 @@
 guiTypes = {
-    containerWindowType = {
-        name = "Politics_Scripted_GUI_window"
-        position = { x = 0 y = 0}
+	containerWindowType = {
+		name = "Politics_Scripted_GUI_window"
+		position = { x = 0 y = 0}
 
 		instantTextboxType = {
 			name = "Leader_Title"
@@ -24,7 +24,7 @@ guiTypes = {
 			name = "Dual_Leader_Frame"
 			spriteType = "GFX_pol_leader_frame"
 			position = { x = 176 y = 44 }		
-        }
+		}
 
 		instantTextboxType = {
 			name = "Dual_Leader_name"
@@ -59,7 +59,7 @@ guiTypes = {
 			alwaystransparent = no
 			position = { x = 234 y = 0 }		
 			pdx_tooltip = "minister_lock_tt"
-        }
+		}
 		
 		iconType = {
 			name = "minister_lock_2"
@@ -67,7 +67,7 @@ guiTypes = {
 			alwaystransparent = no
 			position = { x = 334 y = 0 }		
 			pdx_tooltip = "minister_lock_tt"
-        }
+		}
 		
 		iconType = {
 			name = "minister_lock_3"
@@ -75,6 +75,6 @@ guiTypes = {
 			alwaystransparent = no
 			position = { x = 434 y = 0 }
 			pdx_tooltip = "minister_lock_tt"
-        }
-    }
+		}
+	}
 }

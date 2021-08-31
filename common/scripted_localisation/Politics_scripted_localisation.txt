@@ -29,37 +29,37 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Chief } localization_key = TITLE_Chief }
 	text = { trigger = { has_country_leader_with_trait = TITLE_President_of_the_Council } localization_key = TITLE_President_of_the_Council }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Reichskommissar } localization_key = TITLE_Reichskommissar }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Deputy_Reichskommissar } localization_key = TITLE_Deputy_Reichskommissar }
-    text = { trigger = { has_country_leader_with_trait = TITLE_SS_and_Police_Leader } localization_key = TITLE_SS_and_Police_Leader }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Generalfeldmarschall } localization_key = TITLE_Generalfeldmarschall }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Oberkommandant } localization_key = TITLE_Oberkommandant }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Poglavnik } localization_key = TITLE_Poglavnik }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Duce } localization_key = TITLE_Duce }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Forer } localization_key = TITLE_Forer }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Caudillo } localization_key = TITLE_Caudillo }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Mestr } localization_key = TITLE_Mestr }
-    text = { trigger = { has_country_leader_with_trait = TITLE_General } localization_key = TITLE_General }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Commander } localization_key = TITLE_Commander }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Supreme_Commander } localization_key = TITLE_Supreme_Commander }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Supreme_Leader } localization_key = TITLE_Supreme_Leader }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Grand_Admiral } localization_key = TITLE_Grand_Admiral }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Field_Marshal } localization_key = TITLE_Field_Marshal }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Marshal } localization_key = TITLE_Marshal }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Captain } localization_key = TITLE_Captain }
-    text = { trigger = { has_country_leader_with_trait = TITLE_General_Secretary } localization_key = TITLE_General_Secretary }
-    text = { trigger = { has_country_leader_with_trait = TITLE_First_Secretary } localization_key = TITLE_First_Secretary }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Chairman } localization_key = TITLE_Chairman }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Premier } localization_key = TITLE_Premier }
-    text = { trigger = { has_country_leader_with_trait = TITLE_King } localization_key = TITLE_King }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Prince } localization_key = TITLE_Prince }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Princess } localization_key = TITLE_Princess }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Sultan } localization_key = TITLE_Sultan }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Caliph } localization_key = TITLE_Caliph }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Vice_President } localization_key = TITLE_Vice_President }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Vice_Chancellor } localization_key = TITLE_Vice_Chancellor }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Governor } localization_key = TITLE_Governor }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Minister_President } localization_key = TITLE_Minister_President }
-    text = { trigger = { has_country_leader_with_trait = TITLE_Minister } localization_key = TITLE_Minister }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Deputy_Reichskommissar } localization_key = TITLE_Deputy_Reichskommissar }
+	text = { trigger = { has_country_leader_with_trait = TITLE_SS_and_Police_Leader } localization_key = TITLE_SS_and_Police_Leader }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Generalfeldmarschall } localization_key = TITLE_Generalfeldmarschall }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Oberkommandant } localization_key = TITLE_Oberkommandant }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Poglavnik } localization_key = TITLE_Poglavnik }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Duce } localization_key = TITLE_Duce }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Forer } localization_key = TITLE_Forer }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Caudillo } localization_key = TITLE_Caudillo }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Mestr } localization_key = TITLE_Mestr }
+	text = { trigger = { has_country_leader_with_trait = TITLE_General } localization_key = TITLE_General }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Commander } localization_key = TITLE_Commander }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Supreme_Commander } localization_key = TITLE_Supreme_Commander }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Supreme_Leader } localization_key = TITLE_Supreme_Leader }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Grand_Admiral } localization_key = TITLE_Grand_Admiral }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Field_Marshal } localization_key = TITLE_Field_Marshal }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Marshal } localization_key = TITLE_Marshal }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Captain } localization_key = TITLE_Captain }
+	text = { trigger = { has_country_leader_with_trait = TITLE_General_Secretary } localization_key = TITLE_General_Secretary }
+	text = { trigger = { has_country_leader_with_trait = TITLE_First_Secretary } localization_key = TITLE_First_Secretary }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Chairman } localization_key = TITLE_Chairman }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Premier } localization_key = TITLE_Premier }
+	text = { trigger = { has_country_leader_with_trait = TITLE_King } localization_key = TITLE_King }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Prince } localization_key = TITLE_Prince }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Princess } localization_key = TITLE_Princess }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Sultan } localization_key = TITLE_Sultan }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Caliph } localization_key = TITLE_Caliph }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Vice_President } localization_key = TITLE_Vice_President }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Vice_Chancellor } localization_key = TITLE_Vice_Chancellor }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Governor } localization_key = TITLE_Governor }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Minister_President } localization_key = TITLE_Minister_President }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Minister } localization_key = TITLE_Minister }
 
 	text = { localization_key = "Leader" }
 }
@@ -77,37 +77,37 @@ defined_text = {
 	text = { trigger = { has_idea_with_trait = TITLE_Chief } localization_key = TITLE_Chief }
 	text = { trigger = { has_idea_with_trait = TITLE_President_of_the_Council } localization_key = TITLE_President_of_the_Council }
 	text = { trigger = { has_idea_with_trait = TITLE_Reichskommissar } localization_key = TITLE_Reichskommissar }
-    text = { trigger = { has_idea_with_trait = TITLE_Deputy_Reichskommissar } localization_key = TITLE_Deputy_Reichskommissar }
-    text = { trigger = { has_idea_with_trait = TITLE_SS_and_Police_Leader } localization_key = TITLE_SS_and_Police_Leader }
-    text = { trigger = { has_idea_with_trait = TITLE_Generalfeldmarschall } localization_key = TITLE_Generalfeldmarschall }
-    text = { trigger = { has_idea_with_trait = TITLE_Oberkommandant } localization_key = TITLE_Oberkommandant }
-    text = { trigger = { has_idea_with_trait = TITLE_Poglavnik } localization_key = TITLE_Poglavnik }
-    text = { trigger = { has_idea_with_trait = TITLE_Duce } localization_key = TITLE_Duce }
-    text = { trigger = { has_idea_with_trait = TITLE_Forer } localization_key = TITLE_Forer }
-    text = { trigger = { has_idea_with_trait = TITLE_Caudillo } localization_key = TITLE_Caudillo }
-    text = { trigger = { has_idea_with_trait = TITLE_Mestr } localization_key = TITLE_Mestr }
-    text = { trigger = { has_idea_with_trait = TITLE_General } localization_key = TITLE_General }
-    text = { trigger = { has_idea_with_trait = TITLE_Commander } localization_key = TITLE_Commander }
-    text = { trigger = { has_idea_with_trait = TITLE_Supreme_Commander } localization_key = TITLE_Supreme_Commander }
-    text = { trigger = { has_idea_with_trait = TITLE_Supreme_Leader } localization_key = TITLE_Supreme_Leader }
-    text = { trigger = { has_idea_with_trait = TITLE_Grand_Admiral } localization_key = TITLE_Grand_Admiral }
-    text = { trigger = { has_idea_with_trait = TITLE_Field_Marshal } localization_key = TITLE_Field_Marshal }
-    text = { trigger = { has_idea_with_trait = TITLE_Marshal } localization_key = TITLE_Marshal }
-    text = { trigger = { has_idea_with_trait = TITLE_Captain } localization_key = TITLE_Captain }
-    text = { trigger = { has_idea_with_trait = TITLE_General_Secretary } localization_key = TITLE_General_Secretary }
-    text = { trigger = { has_idea_with_trait = TITLE_First_Secretary } localization_key = TITLE_First_Secretary }
-    text = { trigger = { has_idea_with_trait = TITLE_Chairman } localization_key = TITLE_Chairman }
-    text = { trigger = { has_idea_with_trait = TITLE_Premier } localization_key = TITLE_Premier }
-    text = { trigger = { has_idea_with_trait = TITLE_King } localization_key = TITLE_King }
-    text = { trigger = { has_idea_with_trait = TITLE_Prince } localization_key = TITLE_Prince }
-    text = { trigger = { has_idea_with_trait = TITLE_Princess } localization_key = TITLE_Princess }
-    text = { trigger = { has_idea_with_trait = TITLE_Sultan } localization_key = TITLE_Sultan }
-    text = { trigger = { has_idea_with_trait = TITLE_Caliph } localization_key = TITLE_Caliph }
-    text = { trigger = { has_idea_with_trait = TITLE_Vice_President } localization_key = TITLE_Vice_President }
-    text = { trigger = { has_idea_with_trait = TITLE_Vice_Chancellor } localization_key = TITLE_Vice_Chancellor }
-    text = { trigger = { has_idea_with_trait = TITLE_Governor } localization_key = TITLE_Governor }
-    text = { trigger = { has_idea_with_trait = TITLE_Minister_President } localization_key = TITLE_Minister_President }
-    text = { trigger = { has_idea_with_trait = TITLE_Minister } localization_key = TITLE_Minister }
+	text = { trigger = { has_idea_with_trait = TITLE_Deputy_Reichskommissar } localization_key = TITLE_Deputy_Reichskommissar }
+	text = { trigger = { has_idea_with_trait = TITLE_SS_and_Police_Leader } localization_key = TITLE_SS_and_Police_Leader }
+	text = { trigger = { has_idea_with_trait = TITLE_Generalfeldmarschall } localization_key = TITLE_Generalfeldmarschall }
+	text = { trigger = { has_idea_with_trait = TITLE_Oberkommandant } localization_key = TITLE_Oberkommandant }
+	text = { trigger = { has_idea_with_trait = TITLE_Poglavnik } localization_key = TITLE_Poglavnik }
+	text = { trigger = { has_idea_with_trait = TITLE_Duce } localization_key = TITLE_Duce }
+	text = { trigger = { has_idea_with_trait = TITLE_Forer } localization_key = TITLE_Forer }
+	text = { trigger = { has_idea_with_trait = TITLE_Caudillo } localization_key = TITLE_Caudillo }
+	text = { trigger = { has_idea_with_trait = TITLE_Mestr } localization_key = TITLE_Mestr }
+	text = { trigger = { has_idea_with_trait = TITLE_General } localization_key = TITLE_General }
+	text = { trigger = { has_idea_with_trait = TITLE_Commander } localization_key = TITLE_Commander }
+	text = { trigger = { has_idea_with_trait = TITLE_Supreme_Commander } localization_key = TITLE_Supreme_Commander }
+	text = { trigger = { has_idea_with_trait = TITLE_Supreme_Leader } localization_key = TITLE_Supreme_Leader }
+	text = { trigger = { has_idea_with_trait = TITLE_Grand_Admiral } localization_key = TITLE_Grand_Admiral }
+	text = { trigger = { has_idea_with_trait = TITLE_Field_Marshal } localization_key = TITLE_Field_Marshal }
+	text = { trigger = { has_idea_with_trait = TITLE_Marshal } localization_key = TITLE_Marshal }
+	text = { trigger = { has_idea_with_trait = TITLE_Captain } localization_key = TITLE_Captain }
+	text = { trigger = { has_idea_with_trait = TITLE_General_Secretary } localization_key = TITLE_General_Secretary }
+	text = { trigger = { has_idea_with_trait = TITLE_First_Secretary } localization_key = TITLE_First_Secretary }
+	text = { trigger = { has_idea_with_trait = TITLE_Chairman } localization_key = TITLE_Chairman }
+	text = { trigger = { has_idea_with_trait = TITLE_Premier } localization_key = TITLE_Premier }
+	text = { trigger = { has_idea_with_trait = TITLE_King } localization_key = TITLE_King }
+	text = { trigger = { has_idea_with_trait = TITLE_Prince } localization_key = TITLE_Prince }
+	text = { trigger = { has_idea_with_trait = TITLE_Princess } localization_key = TITLE_Princess }
+	text = { trigger = { has_idea_with_trait = TITLE_Sultan } localization_key = TITLE_Sultan }
+	text = { trigger = { has_idea_with_trait = TITLE_Caliph } localization_key = TITLE_Caliph }
+	text = { trigger = { has_idea_with_trait = TITLE_Vice_President } localization_key = TITLE_Vice_President }
+	text = { trigger = { has_idea_with_trait = TITLE_Vice_Chancellor } localization_key = TITLE_Vice_Chancellor }
+	text = { trigger = { has_idea_with_trait = TITLE_Governor } localization_key = TITLE_Governor }
+	text = { trigger = { has_idea_with_trait = TITLE_Minister_President } localization_key = TITLE_Minister_President }
+	text = { trigger = { has_idea_with_trait = TITLE_Minister } localization_key = TITLE_Minister }
 
 	text = { localization_key = "Leader" }
 }

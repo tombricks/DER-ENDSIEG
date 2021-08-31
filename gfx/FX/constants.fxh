@@ -9,7 +9,7 @@ Code
 // --------------------------------------------------------------
 
 // --------------------------------------------------------------
-// ------------------    Light          -------------------------
+// ------------------	Light		  -------------------------
 // --------------------------------------------------------------
 static const float NIGHT_AMBIENT_BOOST = 3.0f; // can just be baked into the below later ye?
 
@@ -37,14 +37,14 @@ static const float3 NightAmbientPosZ = float3(3.0, 3.0, 3.0);  // top
 static const float3 NightAmbientNegZ = float3(0.8, 0.8, 0.8);  // bottom
 
 // --------------------------------------------------------------
-// ------------------    Specular       -------------------------
+// ------------------	Specular	   -------------------------
 // --------------------------------------------------------------
 static const float SPECULAR_WIDTH 				= 15.0;
 static const float SPECULAR_MULTIPLIER			= 1.0;
 static const float MAP_SPECULAR_WIDTH			= 15.0;
 
 // --------------------------------------------------------------
-// ------------------    TERRAIN        -------------------------
+// ------------------	TERRAIN		-------------------------
 // --------------------------------------------------------------
 static const float CITY_LIGHTS_TILING 			= 0.09103;
 static const float CITY_LIGHTS_INTENSITY 		= 5.5;
@@ -54,7 +54,7 @@ static const float TERRAIN_TILE_FREQ 			= 128.0f;
 static const float MAP_NUM_TILES 				= 4.0f;
 static const float TEXELS_PER_TILE 				= 512.0f;
 static const float ATLAS_TEXEL_POW2_EXPONENT	= 11.0f;
-static const float TERRAIN_WATER_CLIP_HEIGHT    = 3.0f;
+static const float TERRAIN_WATER_CLIP_HEIGHT	= 3.0f;
 static const float TERRAIN_WATER_CLIP_CAM_HI	= 700.0f;
 static const float TERRAIN_WATER_CLIP_CAM_LO	= 50.0f;
 
@@ -110,18 +110,18 @@ static const float 	TREE_SEASON_MIN 			= 0.5f;
 static const float 	TREE_SEASON_FADE_TWEAK 		= 2.5f;
 
 // --------------------------------------------------------------
-// ------------------    HDR          	-------------------------
+// ------------------	HDR		  	-------------------------
 // --------------------------------------------------------------
 static const float3 LUMINANCE_VECTOR  			= float3(0.2125f, 0.7154f, 0.0721f);
 
 // --------------------------------------------------------------
-// ------------------    TREES          -------------------------
+// ------------------	TREES		  -------------------------
 // --------------------------------------------------------------
 static const float 	TREE_SPECULAR = 0.1f;
 static const float 	TREE_ROUGHNESS = 0.6f;
 
 // --------------------------------------------------------------
-// ------------------    WATER          -------------------------
+// ------------------	WATER		  -------------------------
 // --------------------------------------------------------------
 
 //static const float  WATER_TILE					= 4.0f;
@@ -132,7 +132,7 @@ static const float  WATER_HEIGHT_RECP_SQUARED = WATER_HEIGHT_RECP * WATER_HEIGHT
 
 
 // --------------------------------------------------------------
-// ------------------    BUILDINGS      -------------------------
+// ------------------	BUILDINGS	  -------------------------
 // --------------------------------------------------------------
 
 //	PORT_SHIP_OFFSET = 2.0,					defines.lua   (reload defines)
@@ -142,7 +142,7 @@ static const float  WATER_HEIGHT_RECP_SQUARED = WATER_HEIGHT_RECP * WATER_HEIGHT
 
 
 // --------------------------------------------------------------
-// ------------------    FOG            -------------------------
+// ------------------	FOG			-------------------------
 // --------------------------------------------------------------
 
 static const float3 FOG_COLOR 					= float3( 0.12, 0.28, 0.6 );
@@ -159,12 +159,12 @@ static const float  FOW_CAMERA_MAX				= 500;
 
 
 // --------------------------------------------------------------
-// ------------------    BUILDINGS      -------------------------
+// ------------------	BUILDINGS	  -------------------------
 // --------------------------------------------------------------
 
 
-static const float  SHADOW_WEIGHT_TERRAIN    	= 10000.0f;
-static const float  SHADOW_WEIGHT_MAP    		= 10000.0f;
+static const float  SHADOW_WEIGHT_TERRAIN		= 10000.0f;
+static const float  SHADOW_WEIGHT_MAP			= 10000.0f;
 static const float  SHADOW_WEIGHT_BORDER   		= 10000.0f;
 static const float  SHADOW_WEIGHT_WATER   		= 10000.0f;
 static const float  SHADOW_WEIGHT_RIVER   		= 10000.0f;
@@ -176,7 +176,7 @@ static const float  SHADOW_WEIGHT_TREE   		= 10000.0f;
 
 
 // --------------------------------------------------------------
-// ------------------    CAMERA         -------------------------
+// ------------------	CAMERA		 -------------------------
 // --------------------------------------------------------------
 
 
@@ -185,7 +185,7 @@ static const float  SHADOW_WEIGHT_TREE   		= 10000.0f;
 // CAMERA_MAX_HEIGHT = 3000.0,					defines.lua   (reload defines)
 
 // --------------------------------------------------------------
-// ------------------    GRADIENT BORDERS   ---------------------
+// ------------------	GRADIENT BORDERS   ---------------------
 // --------------------------------------------------------------
 
 static const float GB_CAM_MIN = 75.0f;
@@ -206,14 +206,14 @@ static const float GB_FIRST_LAYER_PRIORITY = 0.4; // Priority for first/second l
 static const float BORDER_MAP_TILE = 18000.0f;
 
 // --------------------------------------------------------------
-// ------------------    SECONDARY COLOR MAP   ------------------
+// ------------------	SECONDARY COLOR MAP   ------------------
 // --------------------------------------------------------------
 
 static const float SEC_MAP_TILE = 6000.0f;
 
 
 // --------------------------------------------------------------
-// ------------------    MAP ARROWS   ---------------------------
+// ------------------	MAP ARROWS   ---------------------------
 // --------------------------------------------------------------
 
 static const float MAP_ARROW_SEL_BLINK_SPEED = 5.5f;
@@ -222,13 +222,13 @@ static const float MAP_ARROW_NORMALS_STR_TERR = 0.0125f;
 static const float MAP_ARROW_NORMALS_STR_WATER = 0.08f;
 
 // --------------------------------------------------------------
-// ------------------    PARTICLES   ----------------------------
+// ------------------	PARTICLES   ----------------------------
 // --------------------------------------------------------------
 static const float PARTICLE_FADE_START_DISTANCE = 100;
 static const float PARTICLE_FADE_STOP_DISTANCE = 350;
 
 // --------------------------------------------------------------
-// -------------    RIM LIGHT (PDXMESH)   -----------------------
+// -------------	RIM LIGHT (PDXMESH)   -----------------------
 // --------------------------------------------------------------
 static const float 	RIM_START 		= 0.55f;
 static const float 	RIM_END 		= 0.6f;
@@ -236,7 +236,7 @@ static const float4 RIM_COLOR 		= float4( 0.3f, 0.3f, 0.3f, 0.0f );
 
 
 // --------------------------------------------------------------
-// -------------    MAP BORDER (PDXMESH)   ----------------------
+// -------------	MAP BORDER (PDXMESH)   ----------------------
 // --------------------------------------------------------------
 static const float3 BORDER_SUN_INTENSITY = float3(1.5, 1.5, 1.6);
 static const float3 BORDER_SUN_DIRECTION = float3(-0.2, 0.9, 0.1);

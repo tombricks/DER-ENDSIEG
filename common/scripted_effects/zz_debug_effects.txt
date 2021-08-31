@@ -126,3 +126,26 @@ d_conquer_all = {
 		}
 	}
 }
+
+d_become_free = {
+	if = {
+		limit = {
+			is_subject = yes
+		}
+		OVERLORD = {
+			set_autonomy = {
+				target = PREV
+				autonomy_state = autonomy_free
+			}
+		}
+	}
+}
+
+d_gain_cores = {
+	every_state = {
+		limit = {
+			is_core_of = var:args^1
+		}
+		add_core_of = var:args^0
+	}
+}

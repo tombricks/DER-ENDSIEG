@@ -1,7 +1,7 @@
 guiTypes = {
-    containerWindowType = {
-        name = "Diplomatic_Scripted_GUI_window"
-        position = { x = 0 y = 0}
+	containerWindowType = {
+		name = "Diplomatic_Scripted_GUI_window"
+		position = { x = 0 y = 0}
 
 		iconType = {
 			name = "Dual_Leader_image"
@@ -27,5 +27,5 @@ guiTypes = {
 			pdx_tooltip = "deputy_tt"
 			scale = 0.945
 		}
-    }
+	}
 }
