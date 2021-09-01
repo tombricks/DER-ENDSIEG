@@ -42,6 +42,7 @@ leader_traits = {
 	TITLE_Governor = {  }
 	TITLE_Minister_President = {  }
 	TITLE_Minister = {  }
+	TITLE_Body = {  }
 	TITLE_Supreme_Military_Commander = {  }
 	TITLE_Supreme_Collab_Commander = {  }
 	MINISTER_GER_Propaganda = {  }

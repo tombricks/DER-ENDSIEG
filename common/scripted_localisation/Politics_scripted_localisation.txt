@@ -8,11 +8,13 @@ defined_text = {
 	text = { trigger = { has_idea = OST_DL_Friedrich_Jeckeln } localization_key = OST_DL_Friedrich_Jeckeln }
 	text = { trigger = { has_idea = UKR_DL_Hans_Adolf_Prutzmann } localization_key = UKR_DL_Hans_Adolf_Prutzmann }
 	text = { trigger = { has_idea = BRI_DL_Francois_Debeauvais } localization_key = BRI_DL_Francois_Debeauvais }
+	text = { trigger = { has_idea = GER_DL_Reichsenat } localization_key = GER_DL_Reichsenat }
 	text = { localization_key = "N/A" }
 }
 defined_text = { 
 	name = Get_Deputy_GFX
 	text = { trigger = { has_idea = GER_DL_Martin_Bormann } localization_key = "GFX_Portrait_Martin_Bormann" }
+	text = { trigger = { has_idea = GER_DL_Reichsenat } localization_key = "GFX_Portrait_Reichsenat" }
 	text = { localization_key = "GFX_leader_unknown" }
 }
 defined_text = { 
@@ -60,6 +62,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Governor } localization_key = TITLE_Governor }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Minister_President } localization_key = TITLE_Minister_President }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Minister } localization_key = TITLE_Minister }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Body } localization_key = TITLE_Body }
 
 	text = { localization_key = "Leader" }
 }
@@ -108,6 +111,7 @@ defined_text = {
 	text = { trigger = { has_idea_with_trait = TITLE_Governor } localization_key = TITLE_Governor }
 	text = { trigger = { has_idea_with_trait = TITLE_Minister_President } localization_key = TITLE_Minister_President }
 	text = { trigger = { has_idea_with_trait = TITLE_Minister } localization_key = TITLE_Minister }
+	text = { trigger = { has_idea_with_trait = TITLE_Body } localization_key = TITLE_Body }
 
 	text = { localization_key = "Leader" }
 }

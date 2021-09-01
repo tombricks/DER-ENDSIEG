@@ -1,0 +1,221 @@
+﻿add_namespace = GER_Death_of_Hitler
+add_namespace = GER_News
+
+# Death of Hitler (Effect Event)
+country_event = {
+	id = GER_Death_of_Hitler.1
+	title = GER_Death_of_Hitler.1.title
+	desc = GER_Death_of_Hitler.1.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		log = "[GetDateText]: [Root.GetName]: Event GER_Death_of_Hitler.1"
+		GER = {
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "Martin Bormann"
+				picture = "Martin_Bormann.dds"
+				ideology = nazism
+				traits = { TITLE_Deputy_Fuhrer }
+			}
+			
+			remove_ideas = GER_DL_Martin_Bormann
+			add_ideas = GER_DL_Reichsenat
+			every_country = {
+				limit = {
+					is_subject_of = GER
+				}
+				GER = {
+					set_autonomy = {
+						target = PREV
+						autonomy_state = autonomy_free
+					}
+				}
+				set_country_flag = GER_Starting_Subject
+			}
+			dismantle_faction = yes
+			news_event = GER_News.1
+			every_other_country = { news_event = { id = GER_News.1 hours = 12 } }
+			country_event = { id = GER_Death_of_Hitler.2 days = 3 }
+			HUN = {
+				country_event = { id = GER_Death_of_Hitler.3 days = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = GER_Death_of_Hitler.1.a
+	}
+}
+
+# Death of Hitler (News Event)
+news_event = {
+	id = GER_News.1
+	title = GER_News.1.title
+	desc = GER_News.1.desc
+	picture = GFX_report_event_soviet_soldiers
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event GER_News.1" }
+	option = { name = GER_News.1.a }
+}
+
+# Goebbels Elected Fuhrer
+country_event = {
+	id = GER_Death_of_Hitler.2
+	title = GER_Death_of_Hitler.2.title
+	desc = GER_Death_of_Hitler.2.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event GER_Death_of_Hitler.2"
+			GER = {
+				retire_country_leader = yes
+				create_country_leader = {
+					name = "Joseph Goebbels"
+					picture = "Joseph Goebbels.dds"
+					ideology = nazism
+					traits = { TITLE_Fuhrer }
+				}
+				news_event = GER_News.2
+				every_other_country = {
+					news_event = { id = GER_News.2 hours = 12 }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = GER_Death_of_Hitler.2.a
+	}
+}
+
+# Goebbels Elected Fuhrer (News Event)
+news_event = {
+	id = GER_News.2
+	title = GER_News.2.title
+	desc = GER_News.2.desc
+	picture = GFX_report_event_soviet_soldiers
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event GER_News.2" }
+	option = { name = GER_News.2.a }
+}
+
+# The Decree of 1939
+country_event = {
+	id = GER_Death_of_Hitler.3
+	title = GER_Death_of_Hitler.3.title
+	desc = GER_Death_of_Hitler.3.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event GER_Death_of_Hitler.3"
+		}
+	}
+	
+	option = {
+		name = GER_Death_of_Hitler.3.a
+		add_ai_strategy = {
+			type = prepare_for_war
+			id = GER
+			value = 2000
+		}
+		add_ai_strategy = {
+			type = prepare_for_war
+			id = SLO
+			value = 1000
+		}
+		add_ai_strategy = {
+			type = prepare_for_war
+			id = CAP
+			value = 500
+		}
+		GER = {
+			add_ai_strategy = {
+				type = prepare_for_war
+				id = HUN
+				value = 100
+			}
+		}
+		664 = {
+			set_demilitarized_zone = no
+		}
+		country_event = { id = GER_Death_of_Hitler.4 days = 10 }
+	}
+}
+
+
+# The War has Begun
+country_event = {
+	id = GER_Death_of_Hitler.4
+	title = GER_Death_of_Hitler.4.title
+	desc = GER_Death_of_Hitler.4.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event GER_Death_of_Hitler.4"
+		}
+	}
+	
+	option = {
+		name = GER_Death_of_Hitler.4.a
+		declare_war_on = {
+			target = GER
+			type = civil_war
+		}
+		add_civil_war_target = GER
+		GER = {
+			add_civil_war_target = HUN
+			
+			transfer_units_fraction = {
+				target = HUN
+				size = 0.3
+				stockpile_ratio = 0.3
+				army_ratio = 0.3
+				air_ratio = 0.45
+				navy_ratio = 0.0
+			}
+		}
+		set_temp_variable = { original_nation = GER }
+		set_temp_variable = { new_nation = HUN }
+		proclaim_nation = yes
+		declare_war_on = {
+			target = SLO
+			type = annex_everything
+		}
+		add_state_claim = 70
+		add_state_claim = 71
+		declare_war_on = {
+			target = CAP
+			type = annex_everything
+		}
+		add_state_claim = 73
+		SER = {
+			transfer_state = 764
+		}
+		create_faction = HUN_CW_FACTION
+		set_country_flag = locked_faction
+		GER = {
+			create_faction = GER_CW_FACTION
+			add_to_faction = SLO
+			add_to_faction = CAP
+			set_country_flag = locked_faction
+		}
+		set_cosmetic_tag = HUN_CW
+		swap_ruler_traits = {
+			remove = TITLE_King
+			add = TITLE_Supreme_Commander
+		}
+	}
+}

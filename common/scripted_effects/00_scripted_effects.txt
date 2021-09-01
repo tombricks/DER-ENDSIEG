@@ -482,3 +482,18 @@ on_daily = {
 #on_daily_USA = {
 #	# you can specify an on daily action for a specific country
 #}
+
+proclaim_nation = {
+	every_state = {
+		limit = {
+			is_core_of = temp_var:original_nation
+		}
+		add_core_of = temp_var:new_nation
+	}
+	every_state = {
+		limit = {
+			is_claimed_by = temp_var:original_nation
+		}
+		add_claim_by = temp_var:new_nation
+	}
+}

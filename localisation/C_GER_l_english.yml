@@ -35,6 +35,7 @@
 
 ### Advisors
  GER_DL_Martin_Bormann: "Martin Bormann"
+ GER_DL_Reichsenat: "Reichsenat"
  GER_Joseph_Goebbels: "Joseph Goebbels"
  GER_Alfred_Rosenberg: "Alfred Rosenberg"
  GER_Albert_Speer: "Albert Speer"
@@ -50,9 +51,24 @@
  GER_Der_Widerstand_desc: "The NSDAP cannot expect to rule unopposed. Sure, there are the threats of not-so-foreign intervention from Himmler and Göring in the succession crisis following the soon death of Hitler, but is the true threat from within Germany itself? Not much is known about the specifics of the resistance, but it is feared that they may not be as seperate as we thought. The Reichsbanner is a years old organisation from the times of the Republic, established by the liberal parties such as the SPD, yet we have begun to gather intel on a so-called \"§ORepublikbanner§!\" made up of socialists, democrats and communists alike. Is this just a minor rumour spread by fearmongerers who once saw what they vaguely thought as a red sheet in their neighbour's window, or is it truly a resistance movement growing right under our nose?"
 
 ### Decisions
+ Debug_Kill_Hitler: "Kill Hitler"
 
 ### Focuses
+ GER_Death_of_Hitler.1.title: "Death of Hitler (Hidden)"
+ GER_Death_of_Hitler.1.desc: ""
+ GER_Death_of_Hitler.1.a: "Should be Hidden"
 
+ GER_News.1.title: "Der Führer ist tot!"
+ GER_News.1.desc: ""
+ GER_News.1.a: "Oh Dear"
+
+ GER_Death_of_Hitler.2.title: "The Reichsenat Elects Goebbels!"
+ GER_Death_of_Hitler.2.desc: ""
+ GER_Death_of_Hitler.2.a: "Ok"
+
+ GER_News.2.title: "The Reichsenat Elects Goebbels!"
+ GER_News.2.desc: ""
+ GER_News.2.a: "Ok"
 ### Events
 
 ### Other

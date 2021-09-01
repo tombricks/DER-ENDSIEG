@@ -14,4 +14,54 @@ on_actions = {
 			RK_Cosmetic = yes
 		}
 	}
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					FROM = {
+						tag = GER
+						has_civil_war = yes
+						civilwar_target = HUN
+					}
+					ROOT = {
+						tag = HUN
+						has_civil_war = yes
+						civilwar_target = GER
+					}
+				}
+				SLO = {
+					transfer_state = 664
+				}
+				ROOT = {
+					every_owned_state = {
+						limit = {
+							is_core_of = TRA
+						}
+						TRA = {
+							transfer_state = PREV
+						}
+					}
+					retire_country_leader = yes
+					create_country_leader = {
+						name = "László Bárdossy"
+						picture = "László Bárdossy.dds"
+						ideology = fascism_ideology
+						traits = { TITLE_Prime_Minister }
+					}
+					drop_cosmetic_tag = yes
+					set_cosmetic_tag = HUN_Goebbels
+				}
+				FROM = {
+					set_autonomy = {
+						target = HUN
+						autonomy_state = autonomy_satellite
+					}
+					set_autonomy = {
+						target = TRA
+						autonomy_state = autonomy_satellite
+					}
+				}
+			}
+		}
+	}
 }

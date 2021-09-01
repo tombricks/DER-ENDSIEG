@@ -23,4 +23,8 @@ spriteTypes = {
 		looping = yes
 		play_on_show = yes
 	}
+	spriteType = {
+		name = "GFX_Portrait_Reichsenat"
+		textureFile = "gfx/leaders/GER/Reichsenat.dds"		
+	}
 }

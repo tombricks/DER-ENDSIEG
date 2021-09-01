@@ -104,4 +104,8 @@ spriteTypes = {
 		name = "GFX_idea_OST_victors_arajs"
 		textureFile = "gfx/interface/ideas/OST_victors_arajs.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_GER_DL_Reichsenat"
+		textureFile = "gfx/interface/ideas/GER_Reichsenat.dds"
+	}
 }

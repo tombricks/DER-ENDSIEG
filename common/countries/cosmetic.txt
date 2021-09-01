@@ -134,3 +134,8 @@ ANGEVIN = {
 	color = rgb { 104 15 15 }
 	color_ui = rgb { 104 15 15 }
 }
+
+HUN_Goebbels = {
+	color = rgb { 136 159 125 }
+	color_ui = rgb { 136 159 125 }
+}

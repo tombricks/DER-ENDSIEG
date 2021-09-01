@@ -95,3 +95,10 @@
  IND_Union_neutrality: "Indochinese Union"
  IND_Union_neutrality_DEF: "the Indochinese Union"
  IND_Union_neutrality_ADJ: "Indochinese"
+
+ HUN_CW_fascism: "Germano-Hungarian Provisional Government"
+ HUN_CW_fascism_DEF: "the Germano-Hungarian Provisional Government"
+ HUN_CW_fascism_ADJ: "Germano-Hungarian"
+ HUN_Goebbels_fascism: "Reorganised State of Hungary"
+ HUN_Goebbels_fascism_DEF: "the Reorganised State of Hungary"
+ HUN_Goebbels_fascism_ADJ: "Hungarian"

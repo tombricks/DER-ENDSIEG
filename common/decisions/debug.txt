@@ -1,0 +1,16 @@
+debug_decisions = {
+	Debug_Kill_Hitler = {
+
+		icon = generic_prepare_civil_war
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		complete_effect = {
+			GER = {
+				country_event = GER_Death_of_Hitler.1
+			}
+		}
+	}
+}	
