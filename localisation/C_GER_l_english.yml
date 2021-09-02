@@ -20,6 +20,10 @@
  GER_ADJ: "German"
 
 ### Cosmetics
+ GER_Wehrstaat_fascism: "Großdeutscher Wehrstaat"
+ GER_Wehrstaat_fascism: "der Großdeutsche Wehrstaat"
+ GER_Wehrstaat_neutrality: "Großdeutscher Wehrstaat"
+ GER_Wehrstaat_neutrality: "der Großdeutsche Wehrstaat"
 
 ### Parties
  GER_communism_party: "KPD"
@@ -32,10 +36,13 @@
  GER_neutrality_party_long: "Right-Wing Opposition"
  GER_fascism_party: "NSDAP"
  GER_fascism_party_long: "National Socialist German Workers' Party"
+ GER_Wehrstaat_party: "RNR"
+ GER_Wehrstaat_party_long: "Reich Emergency War Government"
 
 ### Advisors
  GER_DL_Martin_Bormann: "Martin Bormann"
  GER_DL_Reichsenat: "Reichsenat"
+ GER_DL_Ernst_von_Weizsacker: "Ernst von Weizsäcker"
  GER_Joseph_Goebbels: "Joseph Goebbels"
  GER_Alfred_Rosenberg: "Alfred Rosenberg"
  GER_Albert_Speer: "Albert Speer"
@@ -54,21 +61,22 @@
  Debug_Kill_Hitler: "Kill Hitler"
 
 ### Focuses
- GER_Death_of_Hitler.1.title: "Death of Hitler (Hidden)"
- GER_Death_of_Hitler.1.desc: ""
- GER_Death_of_Hitler.1.a: "Should be Hidden"
+ GER_German_Civil_War.1.title: "Death of Hitler (Hidden)"
+ GER_German_Civil_War.1.desc: ""
+ GER_German_Civil_War.1.a: "Should be Hidden"
 
- GER_News.1.title: "Der Führer ist tot!"
- GER_News.1.desc: ""
+ GER_News.1.title: "Der Fuhrer ist tot!"
+ GER_News.1.desc: "The Fuhrer, Adolf Hitler, is dead!"
  GER_News.1.a: "Oh Dear"
 
- GER_Death_of_Hitler.2.title: "The Reichsenat Elects Goebbels!"
- GER_Death_of_Hitler.2.desc: ""
- GER_Death_of_Hitler.2.a: "Ok"
+ GER_German_Civil_War.2.title: "The Reichsenat Elects Goebbels!"
+ GER_German_Civil_War.2.desc: ""
+ GER_German_Civil_War.2.a: "Ok"
 
  GER_News.2.title: "The Reichsenat Elects Goebbels!"
  GER_News.2.desc: ""
  GER_News.2.a: "Ok"
+
 ### Events
 
 ### Other

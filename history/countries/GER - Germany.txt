@@ -129,6 +129,7 @@ add_ideas = {
 
 create_faction = GER_FACTION
 add_to_faction = GER
+set_country_flag = locked_faction
 
 if = {
 	limit = {

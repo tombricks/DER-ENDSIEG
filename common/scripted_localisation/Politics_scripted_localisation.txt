@@ -9,6 +9,8 @@ defined_text = {
 	text = { trigger = { has_idea = UKR_DL_Hans_Adolf_Prutzmann } localization_key = UKR_DL_Hans_Adolf_Prutzmann }
 	text = { trigger = { has_idea = BRI_DL_Francois_Debeauvais } localization_key = BRI_DL_Francois_Debeauvais }
 	text = { trigger = { has_idea = GER_DL_Reichsenat } localization_key = GER_DL_Reichsenat }
+	text = { trigger = { has_idea = HUN_DL_Ferenc_Szalasi } localization_key = HUN_DL_Ferenc_Szalasi }
+	text = { trigger = { has_idea = GER_DL_Ernst_von_Weizsacker } localization_key = GER_DL_Ernst_von_Weizsacker }
 	text = { localization_key = "N/A" }
 }
 defined_text = { 

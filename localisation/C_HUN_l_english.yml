@@ -1,0 +1,64 @@
+﻿l_english:
+### Country Names
+ HUN_communism: "Hungarian Soviet Republic"
+ HUN_communism_DEF: "the Hungarian Soviet Republic"
+ HUN_communism_ADJ: "Hungarian"
+ HUN_socialism: "Hungarian Republic"
+ HUN_socialism_DEF: "the Hungarian Republic"
+ HUN_socialism_ADJ: "Hungarian"
+ HUN_democratic: "Hungarian Republic"
+ HUN_democratic_DEF: "the Hungarian Republic"
+ HUN_democratic_ADJ: "Hungarian"
+ HUN_neutrality: "Kingdom of Hungary"
+ HUN_neutrality_DEF: "the Kingdom of Hungary"
+ HUN_neutrality_ADJ: "Hungarian"
+ HUN_fascism: "Hungarian Kingdom"
+ HUN_fascism_DEF: "the Hungarian Kingdom"
+ HUN_fascism_ADJ: "Hungarian"
+ HUN: "Hungary"
+ HUN_DEF: "Hungary"
+ HUN_ADJ: "Hungarian"
+
+### Cosmetics
+ HUN_CW_fascism: "Germano-Hungarian Provisional Government"
+ HUN_CW_fascism_DEF: "the Germano-Hungarian Provisional Government"
+ HUN_CW_fascism_ADJ: "Germano-Hungarian"
+ HUN_Goebbels_fascism: "Reorganised State of Hungary"
+ HUN_Goebbels_fascism_DEF: "the Reorganised State of Hungary"
+ HUN_Goebbels_fascism_ADJ: "Hungarian"
+
+### Parties
+ HUN_communism_party: "KMP"
+ HUN_communism_party_long: "Party of Communists in Hungary"
+ HUN_socialism_party: "NPP"
+ HUN_socialism_party_long: "National Peasant Party"
+ HUN_democratic_party: "MSZDP"
+ HUN_democratic_party_long: "Social Democratic Party of Hungary"
+ HUN_neutrality_party: "FK"
+ HUN_neutrality_party_long: "Independent Smallholders' Party"
+ HUN_fascism_party: "NYKP"
+ HUN_fascism_party_long: "Arrow Cross"
+
+### Advisors
+ HUN_DL_Ferenc_Szalasi: "Ferenc Szálasi"
+
+### National Spirits
+
+### Decisions
+
+### Focuses
+
+### Events
+ HUN_German_Civil_War.1.title: "The Decree of 1939"
+ HUN_German_Civil_War.1.desc: ""
+ HUN_German_Civil_War.1.a: "Ok"
+
+ HUN_German_Civil_War.2.title: "The War has Begun"
+ HUN_German_Civil_War.2.desc: ""
+ HUN_German_Civil_War.2.a: "Ok"
+
+ HUN_News.1.title: "Göring challenges Goebbels"
+ HUN_News.1.desc: ""
+ HUN_News.1.a: "Ok"
+
+### Other

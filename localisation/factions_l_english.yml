@@ -3,6 +3,8 @@
  FACTION_MEMBER: "Faction member: §Y$COUNTRY$§!"
  FACTION_CREATED_UNDER_MASTER_TITLE: "Joined Master's Faction"
  FACTION_CREATED_UNDER_MASTER_MESSAGE: "We have joined $FACTION|H$ faction together under our master"
+ locked_faction_from_tt: "§RThe §Y[FROM.GetFactionName]§!§R faction is locked§!"
+ locked_faction_root_tt: "§RThe §Y[ROOT.GetFactionName]§!§R faction is locked§!"
  FACTION_NAME_IDEOLOGY_DEFAULT: "Supporters of $IDEOLOGY$"
  FACTION_NAME_DEMOCRATIC_1: "The $CONTINENT_ADJ$ Association"
  FACTION_NAME_DEMOCRATIC_2: "The $CONTINENT_ADJ$ Entente"
@@ -31,3 +33,4 @@
  ITA_FACTION: "Latin Bloc"
  GER_CW_FACTION: "Germania-Pakt"
  HUN_CW_FACTION: "Hungaro-German League"
+ BRG_CW_FACTION: "Ordnungspakt"

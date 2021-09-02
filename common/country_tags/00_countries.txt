@@ -223,3 +223,4 @@ RUS = "countries/asian.txt" # Parliamentary Tsardom of Russia
 RSC = "countries/eastern_european.txt" # Russian Society
 MDA = "countries/eastern_european.txt" # Meat and Dairy Industry
 ROA = "countries/eastern_european.txt" # Russian Liberation Army
+BNT = "countries/eastern_european.txt" # Banat

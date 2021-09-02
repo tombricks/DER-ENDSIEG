@@ -13,6 +13,7 @@ Is_Germany = {
 }
 
 Is_Fascist_Germany = {
+	has_government = fascism
 	OR = {
 		tag = GER
 		AND = {

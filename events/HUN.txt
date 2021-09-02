@@ -1,0 +1,123 @@
+﻿add_namespace = HUN_German_Civil_War
+add_namespace = HUN_News
+
+# The Decree of 1939
+country_event = {
+	id = HUN_German_Civil_War.1
+	title = HUN_German_Civil_War.1.title
+	desc = HUN_German_Civil_War.1.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event HUN_German_Civil_War.1"
+		}
+	}
+	
+	option = {
+		name = HUN_German_Civil_War.1.a
+		add_ai_strategy = {
+			type = prepare_for_war
+			id = GER
+			value = 2000
+		}
+		add_ai_strategy = {
+			type = prepare_for_war
+			id = SLO
+			value = 1000
+		}
+		add_ai_strategy = {
+			type = prepare_for_war
+			id = CAP
+			value = 500
+		}
+		664 = {
+			set_demilitarized_zone = no
+		}
+		country_event = { id = HUN_German_Civil_War.2 days = 10 }
+	}
+}
+
+
+# The War has Begun
+country_event = {
+	id = HUN_German_Civil_War.2
+	title = HUN_German_Civil_War.2.title
+	desc = HUN_German_Civil_War.2.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event HUN_German_Civil_War.2"
+		}
+	}
+	
+	option = {
+		name = HUN_German_Civil_War.2.a
+		declare_war_on = {
+			target = GER
+			type = civil_war
+		}
+		add_civil_war_target = GER
+		GER = {
+			add_civil_war_target = HUN
+			
+			transfer_units_fraction = {
+				target = HUN
+				size = 0.3
+				stockpile_ratio = 0.3
+				army_ratio = 0.35
+				air_ratio = 0.45
+				navy_ratio = 0.0
+			}
+
+			country_event = { id = GER_German_Civil_War.100 days = 10 }
+		}
+		set_temp_variable = { original_nation = GER }
+		set_temp_variable = { new_nation = HUN }
+		proclaim_nation = yes
+		declare_war_on = {
+			target = SLO
+			type = annex_everything
+		}
+		add_state_claim = 70
+		add_state_claim = 71
+		declare_war_on = {
+			target = CAP
+			type = annex_everything
+		}
+		add_state_claim = 73
+		BNT = {
+			transfer_state = 764
+		}
+		create_faction = HUN_CW_FACTION
+		set_country_flag = locked_faction
+		GER = {
+			create_faction = GER_CW_FACTION
+			add_to_faction = SLO
+			add_to_faction = CAP
+			set_country_flag = locked_faction
+		}
+		set_cosmetic_tag = HUN_CW
+		swap_ruler_traits = {
+			remove = TITLE_King
+			add = TITLE_Supreme_Commander
+		}
+		every_country = { news_event = { id = HUN_News.1 days = 1 } }
+	}
+}
+
+# Göring challenges Goebbels (News Event)
+news_event = {
+	id = HUN_News.1
+	title = HUN_News.1.title
+	desc = HUN_News.1.desc
+	picture = GFX_report_event_soviet_soldiers
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event HUN_News.1" }
+	option = { name = HUN_News.1.a }
+}

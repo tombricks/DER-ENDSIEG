@@ -11,6 +11,7 @@ state={
 		add_core_of = ROM
 		add_core_of = SER
 		add_core_of = TRA
+		add_core_of = BNT
 		add_claim_by = ROM
 		add_claim_by = HUN
 		victory_points = {

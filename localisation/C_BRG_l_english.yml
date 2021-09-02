@@ -8,6 +8,12 @@
  BRG_Ordensstaat_fascism: "Ordensstaat Burgund"
  BRG_Ordensstaat_fascism_DEF: "der Ordensstaat Burgund"
  BRG_Ordensstaat_fascism_ADJ: "Burgund"
+ BRG_CW_fascism: "Großgermanisches Provisorium"
+ BRG_CW_fascism_DEF: "das Großgermanische Provisorium"
+ BRG_CW_fascism_ADJ: "Großgermanisches Provisorium"
+ BEL_Degrelle_fascism: "Belgian Royal State"
+ BEL_Degrelle_fascism_DEF: "the Belgian Royal State"
+ BEL_Degrelle_fascism_ADJ: "Belgian"
 
 ### Parties
  GER_BRG_party: "Burgundische-SS"

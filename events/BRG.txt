@@ -1,0 +1,186 @@
+﻿add_namespace = BRG_German_Civil_War
+add_namespace = BRG_News
+
+# The Rightful Fight
+country_event = {
+	id = BRG_German_Civil_War.1
+	title = BRG_German_Civil_War.1.title
+	desc = BRG_German_Civil_War.1.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event BRG_German_Civil_War.1"
+		}
+	}
+	
+	option = {
+		name = BRG_German_Civil_War.1.a
+		add_ai_strategy = {
+			type = prepare_for_war
+			id = GER
+			value = 2000
+		}
+		country_event = { id = BRG_German_Civil_War.2 days = 14 }
+	}
+}
+
+# Reviving the Fatherland
+country_event = {
+	id = BRG_German_Civil_War.2
+	title = BRG_German_Civil_War.2.title
+	desc = BRG_German_Civil_War.2.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event BRG_German_Civil_War.2"
+		}
+	}
+	
+	option = {
+		name = BRG_German_Civil_War.2.a
+		declare_war_on = {
+			target = GER
+			type = civil_war
+		}
+		add_civil_war_target = GER
+		GER = {
+			add_civil_war_target = BRG
+			
+			transfer_units_fraction = {
+				target = BRG
+				size = 0.2
+				stockpile_ratio = 0.4
+				army_ratio = 0.2
+				air_ratio = 0.2
+				navy_ratio = 0.2
+			}
+		}
+		
+		declare_war_on = {
+			target = HUN
+			type = civil_war
+		}
+		add_civil_war_target = HUN
+		HUN = {
+			add_civil_war_target = BRG
+		}
+
+		set_temp_variable = { original_nation = GER }
+		set_temp_variable = { new_nation = BRG }
+		proclaim_nation = yes
+		
+		declare_war_on = {
+			target = SLO
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = CAP
+			type = annex_everything
+		}
+		
+		create_faction = BRG_CW_FACTION
+		set_country_flag = locked_faction
+		set_cosmetic_tag = BRG_CW
+
+		swap_ruler_traits = {
+			remove = TITLE_Reichsverweser
+			add = TITLE_Fuhrer
+		}
+		#every_country = { news_event = { id = GER_News.4 days = 1 } }
+	}
+}
+
+# The Degrelle Proposal
+country_event = {
+	id = BRG_German_Civil_War.3
+	title = BRG_German_Civil_War.3.title
+	desc = BRG_German_Civil_War.3.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	trigger = {
+		tag = BRG
+		surrender_progress > 0.15
+		has_war = yes
+		has_war_with = GER
+	}
+
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event BRG_German_Civil_War.3"
+		}
+	}
+	
+	option = {
+		name = BRG_German_Civil_War.3.a # A Brilliant Proposal!
+		ai_chance = {
+			base = 80
+		}
+		BEL = {
+			create_dynamic_country = {
+				original_tag = BEL
+				set_country_flag = BEL_Degrelle
+				set_cosmetic_tag = BEL_Degrelle
+				transfer_state = 6
+				transfer_state = 34
+				add_state_core = 29
+				add_state_core = 35
+				add_state_claim = 29
+				add_state_claim = 35
+				GER = {
+					add_to_faction = PREV
+				}
+				declare_war_on = {
+					target = BRG
+					type = topple_government
+				}
+				set_politics = {
+					ruling_party = fascism
+					elections_allowed = no
+				}
+				set_popularities = {
+					fascism = 100
+				}
+				create_country_leader = {
+					name = "Leon Degrelle"
+					picture = "Leon Degrelle.dds"
+					ideology = nazism
+					traits = { TITLE_Prime_Minister }
+				}
+				save_global_event_target_as = BEL_Degrelle
+				change_tag_from = BRG
+			}
+		}
+		GER = { add_to_faction = event_target:BEL_Degrelle }
+		transfer_units_fraction = {
+			target = event_target:BEL_Degrelle
+			size = 0.3
+		}
+		remove_ideas = {
+			BRG_DL_Leon_Degrelle
+			BRG_Gottlob_Berger
+		}
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Gottlob Berger"
+			picture = "Gottlob Berger.dds"
+			ideology = ultra_nazism
+			traits = { TITLE_Reichsverweser }
+		}
+	}
+
+	option = {
+		name = BRG_German_Civil_War.3.b # No
+		ai_chance = {
+			base = 20
+		}
+		remove_ideas = BRG_DL_Leon_Degrelle
+	}
+}

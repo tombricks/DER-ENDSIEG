@@ -39,7 +39,7 @@ autonomy_state = {
 	allowed = {
 		OVERLORD = {
 			NOT = {
-				Is_Germany = yes
+				Is_Fascist_Germany = yes
 			}
 		}
 	}

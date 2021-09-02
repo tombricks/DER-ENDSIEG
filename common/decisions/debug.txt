@@ -9,7 +9,7 @@ debug_decisions = {
 
 		complete_effect = {
 			GER = {
-				country_event = GER_Death_of_Hitler.1
+				country_event = GER_German_Civil_War.1
 			}
 		}
 	}

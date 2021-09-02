@@ -139,3 +139,13 @@ HUN_Goebbels = {
 	color = rgb { 136 159 125 }
 	color_ui = rgb { 136 159 125 }
 }
+
+BEL_Degrelle = {
+	color = rgb { 150 134 64 }
+	color_ui = rgb { 150 134 64 }
+}
+
+GER_Wehrstaat = {
+	color = rgb { 112 112 112 }
+	color_ui = rgb { 112 112 112 }
+}

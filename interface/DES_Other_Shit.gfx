@@ -189,4 +189,24 @@ spriteTypes = {
 		}
 	}
 	
+
+	bitmapfont = {
+		name = "heavyweight_26"
+		fontfiles = {
+			"gfx/fonts/heavyweight_26"
+		}
+		color = 0xffffffff
+		textcolors = {
+		}
+	}
+
+	bitmapfont = {
+		name = "newspaper_16"
+		fontfiles = {
+			"gfx/fonts/newspaper_16"
+		}
+		color = 0xffffffff
+		textcolors = {
+		}
+	}
 }

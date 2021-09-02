@@ -773,3 +773,7 @@ ROA = {
 	color = rgb { 82 76 72 }
 	color_ui = rgb { 82 76 72 }
 }
+BNT = {
+	color = rgb { 85 85 116 }
+	color_ui = rgb { 85 85 116 }
+}
