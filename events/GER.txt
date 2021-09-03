@@ -177,11 +177,54 @@ country_event = {
 				add_ideas = {
 					GER_DL_Ernst_von_Weizsacker
 				}
+				every_country = { news_event = { id = GER_News.3 days = 1 } }
 			}
 		}
 	}
 	
 	option = {
 		name = GER_German_Civil_War.100.a
+	}
+}
+
+# Wehrmacht Overthrows Goebbels
+news_event = {
+	id = GER_News.3
+	title = GER_News.3.title
+	desc = GER_News.3.desc
+	picture = GFX_report_event_soviet_soldiers
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event GER_News.3" }
+	option = { name = GER_News.3.a }
+}
+
+# German Victory (News)
+news_event = {
+	id = GER_News.4
+	title = GER_News.4.title
+	desc = GER_News.4.desc
+	picture = GFX_report_event_soviet_soldiers
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event GER_News.4" }
+	option = { name = GER_News.4.a }
+}
+
+# German Victory
+country_event = {
+	id = GER_German_Civil_War.200
+	title = GER_German_Civil_War.200.title
+	desc = GER_German_Civil_War.200.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event GER_German_Civil_War.200"
+		}
+	}
+	
+	option = {
+		name = GER_German_Civil_War.200.a
 	}
 }

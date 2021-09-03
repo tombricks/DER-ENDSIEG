@@ -149,3 +149,13 @@ d_gain_cores = {
 		add_core_of = var:args^0
 	}
 }
+
+d_equal_parties = {
+	set_popularities = {
+		communism = 20
+		socialism = 20
+		democratic = 20
+		neutrality = 20
+		fascism = 20
+	}
+}

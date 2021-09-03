@@ -14,6 +14,9 @@
  BEL_Degrelle_fascism: "Belgian Royal State"
  BEL_Degrelle_fascism_DEF: "the Belgian Royal State"
  BEL_Degrelle_fascism_ADJ: "Belgian"
+ BRG_Reich_fascism: "Großgermanisches Ordensreich"
+ BRG_Reich_fascism_DEF: "das Großgermanische Ordensreich"
+ BRG_Reich_fascism_ADJ: "Germanic"
 
 ### Parties
  GER_BRG_party: "Burgundische-SS"
@@ -33,5 +36,25 @@
 ### Focuses
 
 ### Events
+ BRG_German_Civil_War.1.title: "The Rightful Fight"
+ BRG_German_Civil_War.1.desc: ""
+ BRG_German_Civil_War.1.a: "Ok"
+
+ BRG_German_Civil_War.2.title: "Reviving the Fatherland"
+ BRG_German_Civil_War.2.desc: ""
+ BRG_German_Civil_War.2.a: "Ok"
+
+ BRG_News.1.title: "Himmler invades Germany"
+ BRG_News.1.desc: ""
+ BRG_News.1.a: "Ok"
+
+ BRG_German_Civil_War.3.title: "The Degrelle Proposal"
+ BRG_German_Civil_War.3.desc: ""
+ BRG_German_Civil_War.3.a: "A Brilliant Proposal!"
+ BRG_German_Civil_War.3.b: "Rid of the traitor!"
+
+ BRG_News.2.title: "The Degrelle Rebellion"
+ BRG_News.2.desc: ""
+ BRG_News.2.a: "Ok"
 
 ### Other

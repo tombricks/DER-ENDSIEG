@@ -65,7 +65,7 @@
  GER_German_Civil_War.1.desc: ""
  GER_German_Civil_War.1.a: "Should be Hidden"
 
- GER_News.1.title: "Der Fuhrer ist tot!"
+ GER_News.1.title: "Der Fuehrer ist tot!"
  GER_News.1.desc: "The Fuhrer, Adolf Hitler, is dead!"
  GER_News.1.a: "Oh Dear"
 
@@ -76,6 +76,14 @@
  GER_News.2.title: "The Reichsenat Elects Goebbels!"
  GER_News.2.desc: ""
  GER_News.2.a: "Ok"
+
+ GER_German_Civil_War.100.title: "Tag X + 500"
+ GER_German_Civil_War.100.desc: ""
+ GER_German_Civil_War.100.a: "Ok"
+
+ GER_News.3.title: "Wehrmacht Overthrows Goebbels"
+ GER_News.3.desc: ""
+ GER_News.3.a: "Ok"
 
 ### Events
 

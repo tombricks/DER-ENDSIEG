@@ -121,3 +121,44 @@ news_event = {
 	immediate = { log = "[GetDateText]: [Root.GetName]: Event HUN_News.1" }
 	option = { name = HUN_News.1.a }
 }
+
+
+# Hungarian Victory
+news_event = {
+	id = HUN_News.2
+	title = HUN_News.2.title
+	desc = HUN_News.2.desc
+	picture = GFX_report_event_soviet_soldiers
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event HUN_News.2" }
+	option = { name = HUN_News.2.a }
+}
+
+
+# Hungarian Victory
+country_event = {
+	id = HUN_German_Civil_War.200
+	title = HUN_German_Civil_War.200.title
+	desc = HUN_German_Civil_War.200.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event HUN_German_Civil_War.200"
+		}
+	}
+	
+	option = {
+		name = HUN_German_Civil_War.200.a
+		swap_ruler_traits = { remove = TITLE_Supreme_Commander add = TITLE_Fuhrer_des_Bundesreiches }
+		swap_ruler_traits = { remove = TITLE_King add = TITLE_Fuhrer_des_Bundesreiches }
+		set_cosmetic_tag = HUN_German
+		set_party_name = {
+			ideology = fascism
+			name = HUN_German_party
+			long_name = HUN_German_party_long
+		}
+	}
+}

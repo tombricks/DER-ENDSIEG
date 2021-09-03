@@ -65,6 +65,7 @@ defined_text = {
 	text = { trigger = { has_country_leader_with_trait = TITLE_Minister_President } localization_key = TITLE_Minister_President }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Minister } localization_key = TITLE_Minister }
 	text = { trigger = { has_country_leader_with_trait = TITLE_Body } localization_key = TITLE_Body }
+	text = { trigger = { has_country_leader_with_trait = TITLE_Fuhrer_des_Bundesreiches } localization_key = TITLE_Fuhrer_des_Bundesreiches }
 
 	text = { localization_key = "Leader" }
 }
@@ -114,6 +115,7 @@ defined_text = {
 	text = { trigger = { has_idea_with_trait = TITLE_Minister_President } localization_key = TITLE_Minister_President }
 	text = { trigger = { has_idea_with_trait = TITLE_Minister } localization_key = TITLE_Minister }
 	text = { trigger = { has_idea_with_trait = TITLE_Body } localization_key = TITLE_Body }
+	text = { trigger = { has_idea_with_trait = TITLE_Fuhrer_des_Bundesreiches } localization_key = TITLE_Fuhrer_des_Bundesreiches }
 
 	text = { localization_key = "Leader" }
 }

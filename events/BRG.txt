@@ -92,8 +92,19 @@ country_event = {
 			remove = TITLE_Reichsverweser
 			add = TITLE_Fuhrer
 		}
-		#every_country = { news_event = { id = GER_News.4 days = 1 } }
+		every_country = { news_event = { id = BRG_News.1 days = 1 } }
 	}
+}
+
+# Himmler invades Germany (News Event)
+news_event = {
+	id = BRG_News.1
+	title = BRG_News.1.title
+	desc = BRG_News.1.desc
+	picture = GFX_report_event_soviet_soldiers
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event BRG_News.1" }
+	option = { name = BRG_News.1.a }
 }
 
 # The Degrelle Proposal
@@ -158,7 +169,10 @@ country_event = {
 				change_tag_from = BRG
 			}
 		}
-		GER = { add_to_faction = event_target:BEL_Degrelle }
+		GER = {
+			add_to_faction = event_target:BEL_Degrelle
+			news_event = BRG_News.2
+		}
 		transfer_units_fraction = {
 			target = event_target:BEL_Degrelle
 			size = 0.3
@@ -182,5 +196,47 @@ country_event = {
 			base = 20
 		}
 		remove_ideas = BRG_DL_Leon_Degrelle
+	}
+}
+
+# The Degrelle Rebellion (News Event)
+news_event = {
+	id = BRG_News.2
+	title = BRG_News.2.title
+	desc = BRG_News.2.desc
+	picture = GFX_report_event_soviet_soldiers
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event BRG_News.2" }
+	option = { name = BRG_News.2.a }
+}
+
+# Burgundian Victory
+news_event = {
+	id = BRG_News.3
+	title = BRG_News.3.title
+	desc = BRG_News.3.desc
+	picture = GFX_report_event_soviet_soldiers
+	is_triggered_only = yes
+	immediate = { log = "[GetDateText]: [Root.GetName]: Event BRG_News.3" }
+	option = { name = BRG_News.3.a }
+}
+
+# Burgundian Victory
+country_event = {
+	id = BRG_German_Civil_War.200
+	title = BRG_German_Civil_War.200.title
+	desc = BRG_German_Civil_War.200.desc
+	picture = GFX_report_event_soviet_soldiers
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			log = "[GetDateText]: [Root.GetName]: Event BRG_German_Civil_War.200"
+		}
+	}
+	
+	option = {
+		name = BRG_German_Civil_War.200.a
 	}
 }

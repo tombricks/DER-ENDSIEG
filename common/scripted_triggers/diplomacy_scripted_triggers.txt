@@ -592,7 +592,7 @@ DIPLOMACY_LEAVE_FACTION_ENABLE_TRIGGER = {
 			}
 		}
 		custom_trigger_tooltip = {
-			tooltip = locked_faction_tt
+			tooltip = locked_faction_from_tt
 			always = no
 		}
 	}

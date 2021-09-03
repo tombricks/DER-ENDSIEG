@@ -105,6 +105,123 @@ on_actions = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					FROM = {
+						tag = HUN
+						has_civil_war = yes
+						civilwar_target = GER
+					}
+					ROOT = {
+						tag = GER
+						has_civil_war = yes
+						civilwar_target = HUN
+					}
+				}
+				set_global_flag = GCW_HUN_BEATS_GER
+			}
+			if = {
+				limit = {
+					FROM = {
+						tag = HUN
+						has_civil_war = yes
+						civilwar_target = BRG
+					}
+					ROOT = {
+						tag = BRG
+						has_civil_war = yes
+						civilwar_target = HUN
+					}
+				}
+				set_global_flag = GCW_HUN_BEATS_BRG
+			}
+			if = {
+				limit = {
+					FROM = {
+						tag = BRG
+						has_civil_war = yes
+						civilwar_target = GER
+					}
+					ROOT = {
+						tag = GER
+						has_civil_war = yes
+						civilwar_target = BRG
+					}
+				}
+				set_global_flag = GCW_BRG_BEATS_GER
+			}
+			if = {
+				limit = {
+					FROM = {
+						tag = BRG
+						has_civil_war = yes
+						civilwar_target = HUN
+					}
+					ROOT = {
+						tag = HUN
+						has_civil_war = yes
+						civilwar_target = BRG
+					}
+				}
+				set_global_flag = GCW_BRG_BEATS_HUN
+
+				FROM = {
+					set_autonomy = {
+						target = HUN
+						autonomy_state = autonomy_reichsprotektorat
+					}
+					HUN = {
+						set_cosmetic_tag = HUN_Order
+					}
+					every_state = {
+						limit = {
+							is_core_of = HUN
+							NOT = { is_owned_by = HUN }
+						}
+						remove_core_of = HUN
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					has_global_flag = GCW_BRG_BEATS_HUN
+					has_global_flag = GCW_BRG_BEATS_GER
+				}
+				set_global_flag = GCW_BRG_VICTORY
+				log = "[GetDateText]: Burgundian Victory in the German Civil War"
+				BRG = {
+					set_cosmetic_tag = BRG_Reich
+					country_event = BRG_German_Civil_War.200
+				}
+				every_country = { news_event = { id = BRG_News.3 days = 1 } }
+
+				else_if = {
+					limit = {
+						has_global_flag = GCW_HUN_BEATS_GER
+						has_global_flag = GCW_HUN_BEATS_BRG
+					}
+					set_global_flag = GCW_HUN_VICTORY
+					log = "[GetDateText]: Hungarian Victory in the German Civil War"
+					HUN = {
+						country_event = HUN_German_Civil_War.200
+					}
+					every_country = { news_event = { id = HUN_News.2 days = 1 } }
+				}
+
+				else_if = {
+					limit = {
+						has_global_flag = GCW_GER_BEATS_HUN
+						has_global_flag = GCW_GER_BEATS_BRG
+					}
+					set_global_flag = GCW_GER_VICTORY
+					log = "[GetDateText]: German Victory in the German Civil War"
+					GER = {
+						country_event = GER_German_Civil_War.200
+					}
+					every_country = { news_event = { id = GER_News.4 days = 1 } }
+				}
+			}
 		}
 	}
 }

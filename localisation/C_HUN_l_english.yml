@@ -26,6 +26,12 @@
  HUN_Goebbels_fascism: "Reorganised State of Hungary"
  HUN_Goebbels_fascism_DEF: "the Reorganised State of Hungary"
  HUN_Goebbels_fascism_ADJ: "Hungarian"
+ HUN_Order_fascism: "Ordensprovinz Ungarn"
+ HUN_Order_fascism_DEF: "die Ordensprovinz Ungarn"
+ HUN_Order_fascism_ADJ: "Ungarn"
+ HUN_German_fascism: "Großdeutsch-Ungarisches Reich"
+ HUN_German_fascism_DEF: "das Großdeutsch-Ungarisches Reich"
+ HUN_German_fascism_ADJ: "Germano-Hungarian"
 
 ### Parties
  HUN_communism_party: "KMP"
@@ -38,6 +44,8 @@
  HUN_neutrality_party_long: "Independent Smallholders' Party"
  HUN_fascism_party: "NYKP"
  HUN_fascism_party_long: "Arrow Cross"
+ HUN_German_party: "GdUNSRP"
+ HUN_German_party_long: "Greater Germano-Hungarian National Socialist Reich Partry"
 
 ### Advisors
  HUN_DL_Ferenc_Szalasi: "Ferenc Szálasi"
@@ -60,5 +68,9 @@
  HUN_News.1.title: "Göring challenges Goebbels"
  HUN_News.1.desc: ""
  HUN_News.1.a: "Ok"
+
+ HUN_German_Civil_War.200.title: "Victory"
+ HUN_German_Civil_War.200.desc: ""
+ HUN_German_Civil_War.200.a: "Ok"
 
 ### Other
