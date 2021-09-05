@@ -83,6 +83,24 @@ create_country_leader = {
 	traits = { TITLE_Reichskommissar }
 }
 
+create_country_leader = {
+	name = "Various Native Groups"
+	ideology = anti_revisionism
+}
+create_country_leader = {
+	name = "Various Native Groups"
+	ideology = democratic_socialism
+}
+create_country_leader = {
+	name = "Various Officer Groups"
+	ideology = oligarchism
+}
+create_country_leader = {
+	name = "Various Native Groups"
+	ideology = social_democracy
+}
+
+
 add_ideas = {
 	OST_DL_Friedrich_Jeckeln
 	OST_germanization
